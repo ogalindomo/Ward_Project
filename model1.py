@@ -13,6 +13,7 @@ def get_glove():
 def get_scores():
     return processing.read_scores()
 
+#output: centroid
 def prepare_data():
     x = feature_extraction.get_words() #Vectors for every sentence
     y = processing.read_scores()
@@ -26,6 +27,7 @@ def prepare_data():
         sentence_embedding[sentence] /= len(x[sentence])
     return y,sentence_embedding
 
+#output: list of embeddings
 def get_embeddings():
     l = []
     d = get_glove()
@@ -44,7 +46,6 @@ def flatten(arr):
         for j in range(len(arr[i])):
             l.append(arr[i][j])
     return np.array(l)
-
 
 def get_trained_linear_model():
     x = get_embeddings()
