@@ -8,6 +8,16 @@ def read_scores():
     scores = [0,1,1]
     return scores
 
+def read_scores_words():
+    scores = [
+        [0.1,0.1,0.3,0.3,0.2,0.2,0.2,0.1,0.1,0.7,0.7,0.3],
+        [0.1,0.1,0.8,0.9],
+        [0.1,0.2,0.2,0.1,0.1,0.1,0.3,0.4,0.1,0.4,0.1,0.1,0.1,0.1,0.2,
+         0.3,0.1,0.1,0.1,0.1,0.3,0.6,0.1,0.2,0.8,0.8,0.1,0.8,0.1,0.8,
+         0.7,0.1,0.4,0.1,0.4]
+        ]
+    return scores
+
 if __name__=="__main__":
     sentence = read_sentence()
     scores_by_words = read_scores()

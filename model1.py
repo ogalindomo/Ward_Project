@@ -26,19 +26,35 @@ def prepare_data():
         sentence_embedding[sentence] /= len(x[sentence])
     return y,sentence_embedding
 
-def train_model():
-    y,x = prepare_data()
+def get_embeddings():
+    l = []
+    d = get_glove()
+    words = (feature_extraction.get_words())
+    for sentence in words:
+        for word in sentence:
+            if word.lower() in d:
+                l.append(d[word.lower()])
+            else:
+                l.append([0]*50)
+    return np.array(l)
+
+def flatten(arr):
+    l = []
+    for i in range(len(arr)):
+        for j in range(len(arr[i])):
+            l.append(arr[i][j])
+    return np.array(l)
+
+
+def get_trained_linear_model():
+    x = get_embeddings()
+    y = processing.read_scores_words()
+    y = flatten(y)
     reg = LinearRegression()
     reg.fit(x,y)
     return reg
 
-def train_model_logistic():
-    y,x = prepare_data()
-    reg = LogisticRegression()
-    reg.fit(x,y)
-    return reg
-
-if __name__=="__main__":
-    model = train_model_logistic()
-    y,x = prepare_data()
-    print(model.predict(x[1].reshape(1,-1)))
+if __name__ == "__main__":
+    # e = get_embeddings()
+    # print(e)
+    x,y = get_trained_linear_model()
