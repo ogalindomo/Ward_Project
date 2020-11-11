@@ -1,0 +1,21 @@
+
+Start Date: 3/9/01; HourAhead hour: 8;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Energy Import/Export schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001030908.txt
+
+---- Energy Import/Export Schedule ----
+$$$ Variance found in table tblINTCHG_IMPEXP.
+     Details: (Hour: 8 / Preferred:   3.00 / Final:   0.97)
+  TRANS_TYPE: FINAL
+  SC_ID: ECTRT
+  MKT_TYPE: 2
+  TRANS_DATE: 3/9/01
+  TIE_POINT: SYLMAR_2_NOB
+  INTERCHG_ID: EPMI_CISO_LUCKY
+  ENGY_TYPE: NFRM
+

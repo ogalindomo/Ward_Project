@@ -1,0 +1,29 @@
+
+What definition of down time do you mean?   If the GEWE definition,  the time 
+when the turbine is faulted off automatically or in a repair status, is used 
+then yes your are correct.   If the customer definition, when the turbine 
+can't produce power in good winds, then you are incorrect.   The turbine 
+can't produce power during manual pause  mode or in transition between 
+states.  During calm months, the turbine should  not frequently be in 
+transition.   Manual pause should be uncommon as per management direction.
+
+
+
+
+Jeff Duff
+06/27/2002 01:15 PM
+To: Mark V Walker/EWC/Enron@ENRON, Mark Fisher/EWC/Enron@Enron
+cc:  
+
+Subject: Total Down Time
+
+As a verification of understanding;
+
+Total Down Time  = TO - (DT + RT +LOT + MT + EST + WOT)
+
+Where TO = Total possible survey time.
+
+Thanks,
+
+Jeff
+

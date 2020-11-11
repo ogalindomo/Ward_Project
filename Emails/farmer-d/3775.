@@ -1,0 +1,28 @@
+
+Everyone,
+
+Sometime after the close of business on  Wednesday, January 10th, Sitara 
+Reporting will be migrated to a new version of Oracle reports. Oracle 6.0 
+provides some needed benefits, such as, the ability to process reports on 
+multiple servers which should help performance during peak times. Also, 
+Oracle 6.0 provides the ability to create comma delimited files which can 
+then be imported into Excel.
+
+This migration, for the most part, will be transparent. If you use the Sitara 
+launch pad, you will be directed to the new report server. For those of you 
+who use Internet Explorer favorites to access Sitara Reporting, please update 
+your favorite to point to the new Report server 
+athttp://sitrpt.corp.enron.com.  All the same reports will be available. 
+However, some of the reports will function a little differently. These 
+changes were requested several months ago but were not moved to production 
+until now.
+
+If you know of anyone using Sitara Reporting but are not in the above list of 
+people, please forward this e-mail to them.
+
+Thank You,
+
+Terry Sanvido
+
+Sitara Reporting Manager 
+x34754

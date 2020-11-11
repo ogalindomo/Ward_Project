@@ -1,0 +1,33 @@
+
+Dear Mechelle,
+
+Although I am still somewhat confused about goals and deliverables of the 
+model project that we discussed last week, I thought I would share some 
+information with you that may help you better scope this project.  As I 
+currently understand it, AA wants to ensure that all databases, spreadsheets 
+etc are inventoried.
+
+Currently, risk management is incharge of setting up curves and books in the 
+source systems. We are responsible for setting up the relevant curve/book in 
+RisktRAC.  We have no access to the source systems. We are changing this 
+process by: 
+
+Instead of being inserted in the middle of the process we are working with IT 
+to transfer over the responsibility of establishing curves and books in the 
+source systems to ourselves.  At the moment we are concentrating on ERMS, 
+then will work with EnPower, and lastly, exotic spreadsheets.
+We are developing a process to validate all new curves the day they are 
+created.
+Our global exception reporting captures books & deals that do not make it 
+into any of the VAR, credit, or DPR.
+An inventory of active books in the RAC website (which all risk management 
+personnel have access to) is being created.  This is a short term fix until 
+the counterparty book library initiative can meet our needs (not before 
+March).
+We are putting a tool together to track all of the book requests. 
+
+I'll keep you updated on our progress.  
+
+Best regards
+
+Shona 

@@ -1,0 +1,31 @@
+
+Jeff,
+
+Do you know how often we need to download the Z-Met data?  In other words, 
+what are the file characteristics?  Do they overwrite every 3.4 days, are 
+they a data stack which has 1000 records, etc.
+
+Thanks,
+Hollis
+---------------------- Forwarded by Hollis Kimbrough/EWC/Enron on 05/14/2002 
+02:11 PM ---------------------------
+
+
+Hollis Kimbrough
+05/14/2002 01:56 PM
+To: Kelly Chambers/EWC/Enron@ENRON
+cc: Mark V Walker/EWC/Enron@ENRON, Mark Fisher/EWC/Enron@Enron, Jeff 
+Duff/EWC/Enron@ENRON 
+
+Subject: Modification to down load VisuPro Z-Met data
+
+Kelly,
+
+We need to prepare an SUB to change the downloading requirement for the 
+VisuPro data.  Specifically we need to include the Z-Met data (file and 
+frequency) as well as a uniform methodology for file management.
+
+Can we meet in the morning sometime to discuss?
+
+Thanks,
+Hollis

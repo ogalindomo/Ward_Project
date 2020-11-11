@@ -1,0 +1,51 @@
+
+PLEASE USE THE POSITION MANAGER HOME BUTTON.
+
+When using the SITARA Position Manager,  and you drill down to view details 
+or change the dates, the Position Manager keeps
+all your views running in the background.  This feature allows you to use the 
+BACK and FORWARD buttons to keep your views running.
+On the downside, if you keep these views running but do not really intend to 
+go BACK to look at them, the system and your PC are working harder
+to keep all the old views active and updated.  
+
+The HOME button sends you back to your default view - the first view you had 
+up when you hit apply.  By clicking this button, your
+Position Manager will clear out the old views the next time you drill in.   
+This is the only way to clear out the old views that you no longer need.
+
+ If you do not use the HOME key, and keep drilling in and changing the dates, 
+the Position Manager is still keeping all the your views for 
+the day running in the backgound.     
+
+What we have found is by the end of the day, a user that does not clear out 
+the old views can have well over 30 views open, which is like having
+30 Position Managers up on your PC.  When that user closes down, the position 
+gets locked up for a while as it tries to clear out all the old views.
+
+We will be making some changes soon to that should resolve this issue as far 
+as the SITARA machine is concerned; however, your PC may still be 
+slow with excessive unneccessary views open.   We could make a change to 
+limit the number of active views you can have open, but at this time
+I am not sure that is necessary; regardless, in the mean time, please 
+remember to use your HOME button.
+
+
+
+
+Other helpful hints - 
+
+Did you know you can shrink you tool bar?  Tools options - uncheck show tool 
+bar text labels - 
+
+
+
+Did you know you can split your position screen to have pipes on top and 
+zones and meters below? Tools Options - show drill down second panel - 
+
+
+
+If you have an OMICRON POSITION porfolio - your MIN/MAX button shows you 
+ACTUAL - and MIN/MAX for your day swing deals.
+Same works for NOM FLEX portfolio.
+

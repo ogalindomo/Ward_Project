@@ -1,0 +1,12 @@
+
+Good Morning,
+
+When a transmission deal is entered in blotter, for some reason the volume 
+also gets put in to the loss column as well, showing us with the full volume 
+on one end of the deal, and zero volume on the other.
+
+This happened with two deals today,  deal 535344 and 535343 put into blotter 
+by Crandall.  Once the problem was identified, I went into the deal and 
+changed the loss volume to zero.
+
+C

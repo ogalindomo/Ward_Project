@@ -1,0 +1,14 @@
+
+Ryan:
+
+This is the updated spreadsheet for pricing the LJM options disregarding any 
+credit issues. It produces exactly the same results as before. The only 
+difference tis the place it gets the model's c code. I am placing all the 
+code related to this deal on a specific directory on the "o" drive now. 
+Please use this version on future pricing. I will delete the old code.
+
+
+
+
+Thanks
+Paulo Issler

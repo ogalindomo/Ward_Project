@@ -1,0 +1,27 @@
+
+A release of TDS will go out tonight (5:00 pm) with the following 
+enhancements.  TDS will be unavailable from 5-6pm tonight & positions will be 
+gone when it comes back.
+
+Position Load
+- Will now be off new TDS Flag on the Port Calc screen.  This is only on the 
+Port Calc Screen we hope to add it to Meta Calc in the next few weeks
+
+Position Manager
+- Added new tab with to show curve values
+
+Deal Ticker
+- Change Deal Value
+ * Current Known Bugs - If you reload a position, deals that have switched 
+desk will not repost
+ * Current month deals that have Settle prices in ERMS & the prices have not 
+been updated in the curve files will value incorrectly
+- Killed deals will show up in changed deals (This includes changing desk)
+ 
+Other improvements have been made to increase speed and reliability.
+
+I will be here tonight & tomorrow morning.  After that call Kenny Ha x30413 
+with any issues.
+
+Bill
+x5-7579

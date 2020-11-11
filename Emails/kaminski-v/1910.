@@ -1,0 +1,17 @@
+
+Hi Michelle,
+Chris, Helen and I met this afternoon and discussed about
+the project.  We think the following course of action is appropriate.
+The model interface will be in Excel Spreadsheet, with most
+of the inputs (from Enron as well as from the consultant) hiding
+in an Access data base. The Access data base can be update
+when needed. The engine will be written in Visual Basis code and
+be linked to Excel through xll (or dll). 
+
+Helen has been discussing with Ken about various
+aspects of the model and will finalize the Access data table
+form with Ken. In the mean time, Helen and I will start working
+on code this Thursday (she will be in training Wednesday). 
+
+Best,
+Alex

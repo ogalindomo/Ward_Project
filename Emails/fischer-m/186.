@@ -1,0 +1,32 @@
+
+I am reviewing this document and will provide Patricia with a spec. to create 
+an Oracle table to store this data in.  
+-JD
+---------------------- Forwarded by Jeff Duff/EWC/Enron on 05/06/2002 04:38 
+PM ---------------------------
+
+
+Garth Ripton
+05/06/2002 01:39 PM
+To: Jeff Duff/EWC/Enron@ENRON
+cc:  
+
+Subject: ZMET data
+
+Jeff,
+
+I didn't have time to go through all of this to answer your specific question 
+about air pressure. I think VisuPro does display in mbars but like I said the 
+raw data from the ZMET is a count (0-4095) which corresponds to the range of 
+the meter (1-6V is 0 psia to 15 psia). The conversions (transfer functions) 
+are on page 3,4 and 8 of the ZMET software description:
+
+
+
+Here are the data sheets for the instruments:
+
+
+
+Hope this helps...
+
+-Garth

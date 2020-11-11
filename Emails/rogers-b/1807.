@@ -1,0 +1,19 @@
+
+Carl,
+
+Don want to have following assumptions:
+
+- ENA deals with just energy piece, not anciliary service portion.
+- Gas curve: Transco zone 6 (may be bundled one)
+- Power curve: East hub of NY power pool
+- EES short load is fixed
+
+For valuation;
+
+   Revenue from serving load (to make 12% IRR for an IPP)
++ Spread option value
++ ICAP
+-  Fixed expenses
+= NI
+
+Jin

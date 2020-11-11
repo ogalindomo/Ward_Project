@@ -1,0 +1,78 @@
+
+Start Date: 4/8/01; HourAhead hour: 24;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Generation schedule.
+Variances detected in SC Trades schedule.
+Variances detected in Load schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001040824.txt
+
+---- Generation Schedule ----
+$$$ Variance found in table tblGEN_SCHEDULE.
+     Details: (Hour: 24 / Preferred:  20.00 / Final:  25.35)
+  TRANS_TYPE: FINAL
+  SC_ID: TOSCO
+  MKT_TYPE: 2
+  TRANS_DATE: 4/8/01
+  UNIT_ID: UNCHEM_1_UNIT
+$$$ Variance found in table tblGEN_SCHEDULE.
+     Details: (Hour: 24 / Preferred:  45.00 / Final:  23.40)
+  TRANS_TYPE: FINAL
+  SC_ID: DELANO
+  MKT_TYPE: 2
+  TRANS_DATE: 4/8/01
+  UNIT_ID: PANDOL_6_UNIT
+
+
+
+---- SC Trades Schedule ----
+$$$ Variance found in table tblInt_Interchange.
+     Details: (Hour: 24 / Preferred: 125.00 / Final: 150.00)
+  TRANS_TYPE: FINAL
+  SC_ID: EPMI
+  MKT_TYPE: 2
+  TRANS_DATE: 4/8/01
+  TRADING_SC: ECH1
+  PNT_OF_INTRC: SP15
+  SCHED_TYPE: ENGY
+  PURCH_SALE: 2
+  DEAL_NO: 1
++++ Hour 24 - bad data from ISO.
+  TRANS_TYPE: FINAL
+  SC_ID: EPMI
+  MKT_TYPE: 2
+  TRANS_DATE: 4/8/01
+  TRADING_SC: NCPA
+  PNT_OF_INTRC: ZP26
+  SCHED_TYPE: ENGY
+  PURCH_SALE: 2
+  DEAL_NO: 1
+
+
+
+---- Load Schedule ----
+$$$ Variance found in table tblLoads.
+     Details: (Hour: 24 / Preferred:   0.44 / Final:   0.29)
+  TRANS_TYPE: FINAL
+  LOAD_ID: PGE1
+  MKT_TYPE: 2
+  TRANS_DATE: 4/8/01
+  SC_ID: EPMI
+$$$ Variance found in table tblLoads.
+     Details: (Hour: 24 / Preferred:   4.79 / Final:   3.19)
+  TRANS_TYPE: FINAL
+  LOAD_ID: PGE2
+  MKT_TYPE: 2
+  TRANS_DATE: 4/8/01
+  SC_ID: EPMI
+$$$ Variance found in table tblLoads.
+     Details: (Hour: 24 / Preferred:  43.75 / Final:  29.27)
+  TRANS_TYPE: FINAL
+  LOAD_ID: PGE3
+  MKT_TYPE: 2
+  TRANS_DATE: 4/8/01
+  SC_ID: EPMI
+

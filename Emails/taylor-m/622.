@@ -1,0 +1,33 @@
+
+---------------------- Forwarded by David Forster/LON/ECT on 15/09/99 10:20 
+---------------------------
+
+
+David Forster
+14/09/99 18:36
+To: Elena Kapralova/LON/ECT@ECT, Bob Shults/HOU/ECT@ECT
+cc: Mark Dilworth/LON/ECT@ECT 
+Subject: Change to Refperiod
+
+Bob: Could you get one of your folks to change the Refperiod descriptions for 
+Canadian and U.S. natural gas from:
+
+(Canadian, then U.S. shown)
+The term of the Transaction shall be from 08:00 hours on The Effective Date 
+to 08:00 hours on the day following The Termination Date. The Effective Date 
+is "<<STARTDATE>>". The Termination Date is "<<ENDDATE>>".
+The term of the Transaction shall be from the Effective Date to the 
+Termination Date. The Effective Date is "<<STARTDATE>>". The Termination Date 
+is "<<ENDDATE>>".
+
+to:
+
+Can: The Period of Delivery shall be from <<STARTDATE>> through <<ENDDATE>>
+US: The Period of Delivery shall be from <<STARTDATE>> through <<ENDDATE>>
+
+
+
+Elena: Could you please change the above in the BlackMaster spreadsheet (in 
+red).
+
+Dave

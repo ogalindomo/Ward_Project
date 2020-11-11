@@ -1,0 +1,26 @@
+
+FYI,
+
+I have been testing the enhancement changes for LFT contracts that was 
+documented last April and this item will move to production the weekend.  
+This change will move the LFT validation process from the allocation function 
+to the Rollover and Balance function. To explain,  when TW post a notice 
+that  "No LFT is Available" for a location and gas day, the system will 
+automatically schedule the LFT contract to zero for that day at that point 
+during the 1st scheduling process after the nomination deadline which is 
+called rollover and balance process. The current process today cuts the LFT 
+contracts during our allocation function, which is the last process done on 
+TW. 
+
+We have also added the waiver flag to the contract system that identifies the 
+LFT shippers who have signed the waiver granting TW responsibility to change 
+their nomination from firm to overrun on days when no LFT service is 
+available.
+Both Lorraine and TK have a copy of this draft document that I created. 
+Please review this waiver document and finalize any changes to it so this new 
+service can be offered to the shippers. If you would like to post this waiver 
+document to our web site under forms, please let me know.  Finally, the 
+contract team will keep these waiver documents with the LFT contract file, as 
+well as in their waiver log book.
+
+Thanks Ramona  

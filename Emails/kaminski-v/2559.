@@ -1,0 +1,11 @@
+
+Nick and Winston,
+I understand that IR&FX VAR numbers are calculated every day in RisktRac. 
+This results are overwritten
+everyday in the database table by the official numbers calculated with the 
+old version of the code.
+For the consistent testing we need historical results for each IR and FX 
+sub-portfolio.
+Can we store the numbers every day?
+
+Tanya

@@ -1,0 +1,34 @@
+
+Start Date: 4/3/01; HourAhead hour: 8;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Generation schedule.
+Variances detected in SC Trades schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001040308.txt
+
+---- Generation Schedule ----
+$$$ Variance found in table tblGEN_SCHEDULE.
+     Details: (Hour: 8 / Preferred:   0.00 / Final:   0.00)
+  TRANS_TYPE: FINAL
+  SC_ID: ARCO
+  MKT_TYPE: 2
+  TRANS_DATE: 4/3/01
+  UNIT_ID: CARBGN_6_UNIT 1
+
+
+
+---- SC Trades Schedule ----
+$$$ Variance found in table tblInt_Interchange.
+     Details: (Hour: 8 / Preferred: -800.00 / Final: -799.97)
+  TRANS_TYPE: FINAL
+  SC_ID: EPMI
+  MKT_TYPE: 2
+  TRANS_DATE: 4/3/01
+  TRADING_SC: DETM
+  PNT_OF_INTRC: NP15
+  SCHED_TYPE: ENGY
+  PURCH_SALE: 1
+  DEAL_NO: 1

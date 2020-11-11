@@ -1,0 +1,31 @@
+
+Hi Paul/Cassim,
+
+Further to our meeting yesterday regarding power options, that we may use to 
+capture short-term volatility from regulatory caps being adhered to or 
+broken, I have attached a spreadsheet that should assist in nailing down the 
+value.
+
+ARBITRARY DISTRIBUTION
+The first issue to address is converting the price scenarios for the average 
+of the Q2-Q3 swap into a volatility equivalent.  This is achieved by fitting 
+a normal distribution that matches the one specified for mean and standard 
+deviation.  The graph below illustrates the method for the numbers discussed 
+yesterday.  In this example, the annualised volatility is coming up as 
+approximately 23%.
+
+
+
+PRICING & IMPLIED VOLATILITY
+The pricing is as for a regular Asian option.  The payoff depends on the 
+average of the daily prices for Spanish power for Q2 and Q3.  The valuation 
+using 23% volatility is showing about 15.3 Pta per kWh.
+
+I will schedule a meeting to allow us to take this forward.
+
+Regards,
+
+Anjam
+x35383
+
+SPREADSHEET:

@@ -1,0 +1,22 @@
+
+Start Date: 4/30/01; HourAhead hour: 4;  No ancillary schedules awarded.  No 
+variances detected.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001043004.txt
+Error: Invalid variant type conversion
+
+---- Energy Import/Export Schedule ----
+*** Final schedule not found for preferred schedule.
+     Details:
+
+  TRANS_TYPE: FINAL
+  SC_ID: ECTstCA
+  MKT_TYPE: 2
+  TRANS_DATE: 4/30/01
+  TIE_POINT: PVERDE_5_DEVERS
+  INTERCHG_ID: EPMI_CISO_5001
+  ENGY_TYPE: FIRM
+

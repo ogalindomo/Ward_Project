@@ -1,0 +1,20 @@
+
+The Index for pricing in the PERC contracts is based on the average of the 
+"spot" price and the "citygate" price as follows:
+
+Calculation of spot price (C):
+
+C = (A+B)/2
+Where A is the low and B is the high of the range as reported in the first 
+publication of the billing month of "Inside F.E.R.C's Gas Market Report" for 
+Chicago citygate.
+
+Calculation of citygate price (E):
+
+E = (D+C)/2
+Where D is the price as reported in the first publication of the billing 
+month of "Natural Gas Week" for Delivered to Utility, Midwest.
+
+Calculation of Contract Price (F):
+
+F = E x applicable percentage 

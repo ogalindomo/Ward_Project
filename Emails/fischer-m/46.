@@ -1,0 +1,29 @@
+
+Hi Mark and Mark,
+
+Over the past few weeks we have generated a list of which status counters are 
+incremented during which fault/status conditions. Kim Nguyen tested all the 
+fault/status conditions that she could using the EW1.5 software simulator 
+(about 50% of them). Her list also includes the "theoretical" counter that is 
+supposed to increment according to the specifications that we have received 
+from the Scada department in Rheine.
+
+
+
+I took that list and indexed it by counter so it show all the faults that 
+actually (according to our simulation) increment a given counter. I also 
+included the faults that we could not test and the counters they 
+theoretically increment. 
+
+
+
+If you have time could you please check to see that the given faults are 
+incrementing the correct counters using the proper definitions of 
+availability. Specifically, there are several highlighted items in the second 
+document that may not be correct. We are trying to get a list back to the 
+Scada group in Rheine to correct any problems with our counters and you input 
+would be extremely valuable.
+
+Thanks,
+
+Garth

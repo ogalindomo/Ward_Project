@@ -1,0 +1,25 @@
+
+Jim,
+
+Attached is our report for WTG 79 which answers the questions posed by 
+Eickoff.  Please note that we provided more information than we were asked 
+for in anticipation of additional questions from them, yourself and 
+engineering.  In the attached report we have provided graphs which cover the 
+previous month (versus the previous week), the production since commissioning 
+(through February), and a fault list.
+
+The gaps in the data occur wherever the SCADA system did not record data or 
+it was corrupted in some way.  Please note the fault data is particularly 
+susceptible to data integrity problems but it does appear that we had pretty 
+good data recovery during this period.
+
+In the graph section we included a graph of Gen rpm/rotor rpm which should 
+yield the gearbox gear ratio (a constant).  However, interestingly enough the 
+values fluctuated from time to time which we cannot explain.
+
+We will have Trent Mesa WTG #30 for you tomorrow morning.
+
+Best Regards,
+Hollis
+
+  

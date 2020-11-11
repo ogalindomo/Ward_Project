@@ -1,0 +1,37 @@
+
+We are approaching February 29, 2000, which is generally regarded as the 
+second most critical Year 2000 rollover date, second only to the millennium 
+rollover.  A year divisible by 100 is not a leap year, unless it is divisible 
+by 400.  As a consequence, some applications that were programmed incorrectly 
+will believe the date is March 1, which may cause system errors.
+
+During the millennium rollover Enron encountered Y2K related issues only with 
+the bottom tier of applications and embedded systems that were ranked as 
+"ordinary" or "low" in our triage processes.  The problems that did arise 
+were few and were quickly fixed.  This is exactly what we were planning for 
+and is a testament to a job done exceptionally well by all.  
+
+In consideration of the few and minor problems Enron encountered on January 
+1, 2000, our procedures for the 29th will be curtailed.  The goals for this 
+period are to validate that all mission critical applications and embedded 
+systems are functioning normally and to ensure that all problems are reported 
+through the project office.  We are not planning to reopen the Millennium 
+Management Center nor do we plan to operate outside of normal business hours.
+
+Please ensure that each group that reported to you for the millennium 
+rollover run through the same Y2K checklists for critical systems.  For this 
+exercise, however, we anticipate them reporting back to you on an exception 
+basis only.
+
+If problems do occur, the nature, details and planned ready dates should be 
+forwarded to Andrew Parsons (713 853-6665) or Bob Johansen (713 853-6842), 
+who will report to management and monitor events.  Also, be sure to route any 
+inquiries from the press through the same public relations contacts that were 
+used on January 1st.  The key contact at Corp Public Relations is Karen Denne 
+(713 853-9757).
+
+Thank you for your cooperation,
+
+
+Andrew
+713 853-6665

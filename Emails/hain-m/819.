@@ -1,0 +1,20 @@
+
+request_number:  BPA-IN:01
+firstname:  Linc
+lastname:  Wolverton
+e-mail:  lwolv@worldaccessnet.com
+exhibit_wp-02-e-:  IN-02
+page_numbers:  10-13
+request_text:  On pages 10-13, there is a description of an analysis that was 
+performed that compared the amount of secondary energy sales for each year of 
+the 5 year rate period.  Please provide electronically all models (including 
+spreadsheets), input data, and output data used to perform this analysis.
+response_text:  The electronic file is attached as "Sorted RMS."
+
+The following information is from the web server:
+1.  Logon: IUSR_GRANITE
+2.  Remote Host:  63.230.164.97
+3.  Remote IP Address:  63.230.164.97
+4.  Form URL:  
+https://secure.bpa.gov/power/secure/psp/ratecase/discovery/wp_02_response.html
+5.  Browser Client:  Mozilla/4.73 [en]C-DIAL  (Win98; U)

@@ -1,0 +1,27 @@
+
+We have a new version of the TAGG-Deal Capture Application in TAGG's staging 
+area ready for user testing. The reason for the new version is to incorporate 
+three new requests. The new requests are as follows:
+
+Provide ability to capture external exchange deal numbers and associate them 
+with a TAGG deal.
+For TAGG deals that have more than 9 legs,  redo numbering such that leg 
+numbers on Deal Structure Screen match  with leg numbers in Deal Capture 
+Detail screen and  forwards 
+detail report .
+For physical NG deals, require  a link to a Sitara deal num before allowing 
+deal to save in TAGG.
+
+The attached document contains more information regarding the external 
+exchange item mentioned above.
+
+
+The current plan is to migrate these changes into  production the evening of 
+Monday January 22, 2001. If you have any problems with the changes made to 
+this version of Deal Capture Application or with 
+the proposed migration plans, please contact Oscar Rivera(x5-3361) or Sanjeev 
+Gupta (x5-3816) as soon as possible.
+
+thanks,
+
+Oscar Rivera

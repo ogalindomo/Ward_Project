@@ -1,0 +1,33 @@
+
+Start Date: 4/6/01; HourAhead hour: 1;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Energy Import/Export schedule.
+Variances detected in Load schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001040601.txt
+
+---- Energy Import/Export Schedule ----
+$$$ Variance found in table tblINTCHG_IMPEXP.
+     Details: (Hour: 1 / Preferred:  75.00 / Final:  74.98)
+  TRANS_TYPE: FINAL
+  SC_ID: ECTstSW
+  MKT_TYPE: 2
+  TRANS_DATE: 4/6/01
+  TIE_POINT: PVERDE_5_DEVERS
+  INTERCHG_ID: EPMI_CISO_5000
+  ENGY_TYPE: FIRM
+
+
+
+---- Load Schedule ----
+$$$ Variance found in table tblLoads.
+     Details: (Hour: 1 / Preferred:   4.05 / Final:   4.00)
+  TRANS_TYPE: FINAL
+  LOAD_ID: SCE1
+  MKT_TYPE: 2
+  TRANS_DATE: 4/6/01
+  SC_ID: EPMI
+

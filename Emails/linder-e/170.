@@ -1,0 +1,19 @@
+
+Start Date: 4/4/01; HourAhead hour: 13;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Load schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001040413.txt
+
+---- Load Schedule ----
+$$$ Variance found in table tblLoads.
+     Details: (Hour: 13 / Preferred:   0.49 / Final:   0.04)
+  TRANS_TYPE: FINAL
+  LOAD_ID: PGE1
+  MKT_TYPE: 2
+  TRANS_DATE: 4/4/01
+  SC_ID: EPMI
+

@@ -1,0 +1,64 @@
+
+It has been pointed out to us that saving your e-mail messages to the netwo=
+rk=20
+as described in our earlier instructions does not save the =01&From:=018 an=
+d =01&To:=018=20
+addresses, the day and time sent or the subject line. We need this=20
+information. The simplest way to ensure this information is captured is to=
+=20
+=01&Forward=018 a copy of each message to yourself first, then save the for=
+warded=20
+copy to the network. Detailed instructions follow for Lotus Notes and=20
+Microsoft Exchange:
+
+Lotus Notes:
+Open the message.
+Click on the =01&Forward=018 button at the top of the message, or from the=
+=20
+=01&Actions=018 menu choose =01&Forward=018.
+Put your own name in the =01&To:=018 address field at the top of the screen=
+. You do=20
+need to change anything else in the message.
+Click on the =01&Send=018 button at the top of the message, or from the =01=
+&Actions=018=20
+menu choose =01&Send=018.
+Open the forwarded message.
+From the =01&File=018 menu choose =01&Export=01(=018.
+Make sure you have changed the =01&Save in=018 directory to =01&O:\Corporat=
+e\HPL=20
+Sale\<your user name>=018, substituting your actual network user name for =
+=01&<your=20
+user name>=018.
+Choose a name for the mail message.
+Click Save.
+
+Microsoft Exchange:
+Select or open the message.
+Click on the =01&Forward=018 button at the top of the screen, or from the =
+=01&Actions=018=20
+menu choose =01&Forward=018.
+Put your own name in the =01&To:=018 address field at the top of the screen=
+. You do=20
+need to change anything else in the message.
+Click on the =01&Send=018 button at the top of the message, or from the =01=
+&File=018 menu=20
+choose =01&Send=018.
+Select or open the forwarded message.
+From the =01&File=018 menu choose =01&Save As=01(=018.
+Make sure you have changed the =01&Save in=018 directory to =01&O:\Corporat=
+e\HPL=20
+Sale\<your user name>=018, substituting your actual network user name for =
+=01&<your=20
+user name>=018.
+Choose a name for the mail message.
+Click Save.
+
+We=01,re sorry for the confusion. If there are any questions please call Ma=
+rk=20
+Thibodeaux (x39373) or Russell Long (x53754).
+
+Thank you,
+
+Mark Thibodeaux
+Enron Corp.
+IT Compliance

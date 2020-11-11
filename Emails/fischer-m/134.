@@ -1,0 +1,36 @@
+
+Mark,
+
+We now have the curtailment piece but what about the energy which was in the 
+wind (i.e. what was possible)?
+
+Hollis
+
+
+
+
+Mark Fisher
+04/17/2002 11:54 AM
+To: Kurt Anderson/EWC/Enron@ENRON
+cc: Hollis Kimbrough/EWC/Enron@ENRON, Mark V Walker/EWC/Enron@ENRON, Patricia 
+Hunter/EWC/Enron@ENRON 
+
+Subject: Clear Sky March 2002 curtailment
+
+Kurt,
+
+The March data has been uploaded ( 443663 of a possible 473184 or 93.8% 
+recovery, which is better than I expected). Running the nacelle wind speed 
+data through the power curve for the curtailed periods as supplied by the 
+site shows that approximately  9,961,285 kWh was lost due to curtailment 
+(taking into account 97% availability and a 2% line loss). Additional losses 
+might have occured during the times of no recovered data, but that is not 
+supported by this data set/methodology.
+
+The spreadsheet for each turbine/time period is attached (Times in this 
+spreadsheet are SCADA time, UTC).
+
+Mark Fisher
+
+
+

@@ -1,0 +1,29 @@
+
+Bill:
+
+The TDS flag and Rolloff % fields in PortCalc are now in production MetaCalc.
+
+Please note that when copying a meta_id, these fields are copied as is, which
+is similar to PortCalc's copy post_id behaviour.
+
+Thank you,
+Jeremy
+x3-0573
+
+
+
+
+
+William E Kasemervisz
+12/15/2000 11:11 AM
+To: Jeremy Wong/HOU/ECT@ECT
+cc:  
+Subject: TDS Flag in Meta Calc
+
+What is the estimate on when the TDS flag will be in Meta Calc?
+
+In addition to Gas, Coal will start using TDS next week.
+
+Bill
+x5-7579
+

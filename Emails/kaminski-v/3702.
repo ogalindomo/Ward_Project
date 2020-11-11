@@ -1,0 +1,43 @@
+
+Jin & Winston,
+I will look at the results of 2 runs,
+but I will not look at the code unless it is in our Version Control System 
+SCCS.
+
+Please, put all your version under this system, as we used to do, and as we
+discussed with you.
+
+Thank you,
+
+Tanya
+
+
+   
+	
+	
+	From:  Jin Yu                           10/24/2000 12:31 AM
+	
+
+To: Tanya Tamarchenko/HOU/ECT@ECT
+cc: Wenyao Jia/HOU/ECT@ECT 
+Subject: The newvatrfacs program and testing data
+
+Hi, Tanya:
+ Two versions of the newvatrfacs program: with (V2) and without (V1) weight 
+are listed in the location:
+
+ /rms/prod/bin/tmp/V1 and /rms/prod/bin/tmp/V2 along with testing result for 
+the effdate = '20-OCT-2000'.
+
+ The testing results of the factors for a given NG-cluster (a constant list: 
+clust.dat) are listed in
+/rms/prod/bin/tmp.  (The files with name like s* are the results of a test 
+run without "weight", while the files with name like t* are the results of a 
+test run with "weight").
+
+ All source codes are listed there, including the makefile and the 
+excuteables.  Should you find any problem with the program, please let me 
+know.
+
+Jin
+

@@ -1,0 +1,12 @@
+
+Start Date: 4/6/01; HourAhead hour: 4;  No ancillary schedules awarded.  No 
+variances detected.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001040604.txt
+
+!!!General SQL error.
+Couldn't update; currently locked by user 'admin' on machine 'ECTHOU-BPS3'.
+Table

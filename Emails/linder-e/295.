@@ -1,0 +1,33 @@
+
+Start Date: 4/9/01; HourAhead hour: 3;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Load schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001040903.txt
+
+---- Energy Import/Export Schedule ----
+*** Final schedule not found for preferred schedule.
+     Details:
+
+  TRANS_TYPE: FINAL
+  SC_ID: ECTRT
+  MKT_TYPE: 2
+  TRANS_DATE: 4/9/01
+  TIE_POINT: PVERDE_5_DEVERS
+  INTERCHG_ID: EPMI_CISO_OZZY
+  ENGY_TYPE: FIRM
+
+
+
+---- Load Schedule ----
+$$$ Variance found in table tblLoads.
+     Details: (Hour: 3 / Preferred:  61.86 / Final:  41.86)
+  TRANS_TYPE: FINAL
+  LOAD_ID: SCE1
+  MKT_TYPE: 2
+  TRANS_DATE: 4/9/01
+  SC_ID: EPMI
+

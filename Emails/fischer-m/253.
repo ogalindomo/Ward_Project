@@ -1,0 +1,17 @@
+
+Joe,
+See the file Memo0529AEP.  Is there a simple explanation for why the system 
+OK counter continued to increment 44.7 hrs when the turbine blades were 
+pitched out to 80 degrees?   The turbine was not powered down, put in 
+maintenance, put in repair, or faulted off.   I talked to the controller 
+people and the attached memo are the only commands other than manual pause 
+that will cause this.  They sent me the file I stored as PausingCauses.  Call 
+me at 6753 if you need any further info.
+
+
+Please call me with your thoughts on this & I will finish a writeup for Gary 
+Verkleeren.      Our group is working on an improved capability to detect 
+periods of long pausing.   However, until the data recovery of Statdat files 
+improves this new capability may not be consistently reliable or timely.   
+
+ 

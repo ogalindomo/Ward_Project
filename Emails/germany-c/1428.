@@ -1,0 +1,45 @@
+
+In Navigator, the profile I use excludes the following package id's. This 
+will be necessary to get the CES true volume number!!!!!!!!!!! 
+
+ENA as Shipper:
+152-TRI
+154-CON
+Bayst.
+Covept
+Empire
+ENA
+Enron
+Engage
+FP&L
+Herald Oil & Gas
+Hopewel
+Hopewll
+K Petroleum M&B
+Mid Amer
+North Coast Energy
+Penfuel
+Sempra
+Statoil
+Texaco
+Triad
+Woodwrd
+
+Calp as Shipper:
+152-TRI
+888-CES
+Boonville
+Calp
+Delmarv
+Empire
+ENA
+Keyspan
+TRIAD
+
+CES package ID's (can't remember them all... these are some of them... you 
+can look at Chris's reports for other id's):
+CES Enduser
+Choice
+Timet
+Swing
+

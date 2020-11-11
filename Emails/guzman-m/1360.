@@ -1,0 +1,18 @@
+
+When you are scheduling the two Wheelabrator units, please use the following 
+counterparties in CAPS:
+
+MARTEL_2_AMFOR:  Wheelabrat
+WSENGY_1_Unit 4:  WheelSHAST
+
+We account for these separately and thus they need to be scheduled as two 
+separate entities.  
+
+In Enpower there are two counterparties set up as well:
+
+MARTEL_2_AMFOR:  WHEELABRMA
+WSENGY_1_Unit 4:  WHEELABRSH
+
+Thanks and let me know if you have any questions,
+
+Kourtney

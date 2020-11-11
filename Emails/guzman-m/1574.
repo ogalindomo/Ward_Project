@@ -1,0 +1,6 @@
+
+The global ID field has been expanded to hold more data, and now you will be 
+able to see who the network trans provider is and the sink.  Right now we are 
+only doing this for NOB, but let me know how it goes.  I think too much more 
+would be counter productive. Just click the "Global ID" part of the grey bar 
+on the top of the report, and you will get the expanded view of this field.   

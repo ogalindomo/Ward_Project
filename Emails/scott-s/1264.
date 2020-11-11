@@ -1,0 +1,14 @@
+
+FYI. In general everything went ok today Nov 10.
+
+Susan Scott had some problems with some of the excel spreadsheets she's been 
+running on her machine. The issue here is that the CopyFromRecordset method 
+of a range object is failing. The simple
+fix is to use a user defined function named rsOutput instead of the method. 
+She also mentioned that a process that outputs a text file to the E: drive 
+seems to be failing on her machine but is working fine on Dutch Quigley's 
+machine. She'll provide more detail to support on Monday.
+
+Cheers.
+
+--EdII

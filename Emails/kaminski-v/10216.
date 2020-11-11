@@ -1,0 +1,43 @@
+
+Hi All,
+
+After all the hard work, we are at time of harvesting!  But as we all know 
+that there still a few more hurdles ahead of us in order to release credit 
+reserve model at end of March,  but on the bright side, Vince Kaminski has 
+promised us a big feast after we push the product out of door.  So let commit 
+our self to do one last dash to the finish line!
+
+Here I composed a list of task that we need to accomplish for the release,  
+Let hit the items on the list and get it over with
+
+Continue the comparison test between old and new model   Winston
+Testing of theoretical deals!  finish the comparison between the theoretical 
+value and model valuation!  Tanya T. Winston J.
+Making the default probability table a configurable component and runtime 
+parameter.  Winston J., Ramesh G.
+Simulation dimension change for different analysis requirement, default path 
+5000 max and price path 1000 max.  Winston
+Interface to run the credit reserve in GRMS system ( for now )   Ramesh
+Run time option, Applying stress scenario on input curves for any or all 
+curves (sensitivity analysis)   Winston
+Runtime option, Curve replacement for any or all curves ( attribution 
+analysis )    Winston
+Validation of different insurance plan       Tanya, Winston
+Intra-month position validation to see the impact of excluding of 
+intra-manoth position on credit reserve  Vicent Tang, Ramesh
+Exchange deals handling( are they using the highest e-rating ? )   Ramesh
+Saving credit reserve result, please grant Winston and Xiaojun the privilege 
+to save the result into production database,  Ramesh, Winston, XiaoJun
+credit reserve on legal id, based on the data clean up of all spreadsheets ( 
+not scheduled )!
+Deployment plan.  One credit instance at any time until we get out new 
+computing server ( probably in April time frame )
+
+
+This list may be an ever changing list and may also incomplete, please let me 
+know if I missed anything or any deletions and additions!  Please let me know 
+if anything I can clarify.
+
+Thanks!
+
+Jonathan

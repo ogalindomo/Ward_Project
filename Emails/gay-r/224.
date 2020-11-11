@@ -1,0 +1,17 @@
+
+In order to provide more stability to the Unify Gas application, we'd like to 
+start performing morning reboots of the database system starting at 6:30 AM.  
+Please run this by your groups to see if it's okay with them.
+
+This is a short term precaution until Sybase fixes the new bug we have 
+identified (i.e. server hanging, people can't get work done which results in 
+hour glasses).  The reboot should take approimately 25 minutes, which 
+includes a prime script which caches a lot of the more frequently used data 
+for better performance.
+
+I'll give you a date it will start unless I hear there is some reason we 
+can't do this.
+
+If you have questions, please ask.
+
+Thanks

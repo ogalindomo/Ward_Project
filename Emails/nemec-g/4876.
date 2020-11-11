@@ -1,0 +1,12 @@
+
+The following 2 schemas have been moved to scadafsp.
+
+ rwy
+ rpm
+
+
+I'm in the process of modifying the tnsnames file, so there will be no 
+changes on your side.
+
+Thanks,
+Neil

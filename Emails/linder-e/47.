@@ -1,0 +1,26 @@
+
+Start Date: 3/30/01; HourAhead hour: 14;  No ancillary schedules awarded.  No 
+variances detected.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001033014.txt
+!!!General SQL error.
+Couldn't read; currently locked by user 'Admin' on machine 'NAHOU-TRDTS5'.
+Table
+
+---- SC Trades Schedule ----
+*** Final schedule not found for preferred schedule.
+     Details:
+
+  TRANS_TYPE: FINAL
+  SC_ID: EPMI
+  MKT_TYPE: 2
+  TRANS_DATE: 3/30/01
+  TRADING_SC: NEI1
+  PNT_OF_INTRC: SP15
+  SCHED_TYPE: ENGY
+  PURCH_SALE: 2
+  DEAL_NO: 1
+

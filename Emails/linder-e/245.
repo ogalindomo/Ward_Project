@@ -1,0 +1,35 @@
+
+Start Date: 4/6/01; HourAhead hour: 24;  No ancillary schedules awarded.  No 
+variances detected.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001040624.txt
+
+---- SC Trades Schedule ----
+*** Final schedule not found for preferred schedule.
+     Details:
+
+  TRANS_TYPE: FINAL
+  SC_ID: EPMI
+  MKT_TYPE: 2
+  TRANS_DATE: 4/6/01
+  TRADING_SC: PGAE
+  PNT_OF_INTRC: NP15
+  SCHED_TYPE: ENGY
+  PURCH_SALE: 2
+  DEAL_NO: 1
+*** Final schedule not found for preferred schedule.
+     Details:
+
+  TRANS_TYPE: FINAL
+  SC_ID: EPMI
+  MKT_TYPE: 2
+  TRANS_DATE: 4/6/01
+  TRADING_SC: PGAE
+  PNT_OF_INTRC: ZP26
+  SCHED_TYPE: ENGY
+  PURCH_SALE: 2
+  DEAL_NO: 1
+

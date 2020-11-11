@@ -1,0 +1,23 @@
+
+Start Date: 4/27/01; HourAhead hour: 22;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in SC Trades schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001042722.txt
+
+---- SC Trades Schedule ----
+$$$ Variance found in table tblInt_Interchange.
+     Details: (Hour: 22 / Preferred: -682.00 / Final: -702.00)
+  TRANS_TYPE: FINAL
+  SC_ID: EPMI
+  MKT_TYPE: 2
+  TRANS_DATE: 4/27/01
+  TRADING_SC: APX1
+  PNT_OF_INTRC: NP15
+  SCHED_TYPE: ENGY
+  PURCH_SALE: 1
+  DEAL_NO: 1
+

@@ -1,0 +1,33 @@
+
+Start Date: 3/31/01; HourAhead hour: 10;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Generation schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001033110.txt
+
+---- Generation Schedule ----
+$$$ Variance found in table tblGEN_SCHEDULE.
+     Details: (Hour: 10 / Preferred:   0.00 / Final:   0.00)
+  TRANS_TYPE: FINAL
+  SC_ID: ARCO
+  MKT_TYPE: 2
+  TRANS_DATE: 3/31/01
+  UNIT_ID: CARBGN_6_UNIT 1
+
+
+
+---- Energy Import/Export Schedule ----
+*** Final schedule not found for preferred schedule.
+     Details:
+
+  TRANS_TYPE: FINAL
+  SC_ID: ECTRT
+  MKT_TYPE: 2
+  TRANS_DATE: 3/31/01
+  TIE_POINT: SYLMAR_2_NOB
+  INTERCHG_ID: EPMI_CISO_DFISH
+  ENGY_TYPE: NFRM
+

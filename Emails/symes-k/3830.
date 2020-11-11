@@ -1,0 +1,16 @@
+
+Hello there!
+
+I'm researching a problem our Settlements group has run across, and it looks 
+like it might be due to a Cal-PX index price that didn't get posted. The 
+terms of the deal are as follows:
+
+508956
+EPMI sells to EES
+NP-15
+1/31/01 - Round-the-Clock
+Price - PX NP-15 index
+
+Apparently when the deal was first calculated in our system (on 1/31), the PX 
+index price had not been posted yet, and consequently our Risk group 
+calculated the deal at the trader's curve price. Then

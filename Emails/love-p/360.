@@ -1,0 +1,25 @@
+
+A new release of TDS was moved into production - 2/13/00
+
+Highlights
+- Security is now in place for Deal Ticker, Positions, & Position Load - if 
+you don't have access to a desk you need let me know.
+- Position Manager is now showing correct positions
+- You can combine Positions into Curve Groups for both positions & Curve 
+Shift.
+- Option Premiums are valuing correctly
+- Position Loads will pick up all deals changed since Official Books Calc not 
+since load.
+
+
+OTHER NEWS
+You may be seeing valuation in Deal Ticker & Position Manager.  We are 
+publishing real time curves for the Texas Desk & Nymex.  
+The Texas traders are scheduled to go live next week. 
+
+Any Questions or problems let me know.
+
+Thanks,
+
+Bill Kasemervisz
+x5-7579

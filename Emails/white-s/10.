@@ -1,0 +1,14 @@
+
+The gas book liquidated twice, so our QTD and YTD was understated.  I 
+manipulated west hedge to back off the liquidation, and then had to bring the 
+west hedge new balance into  DPR 11/30, which also impacted DPR 12/01, and 
+DPR 12/04. 
+
+In numbers, LT books QTD and YTD increased on 11/30  by approximately 1.1mm 
+to $4,238,083 and $477,795,999 respectively.  That increase had to flow 
+through to the 12/01 and 12/04 post hoc.  I re-published and re-exported 
+11/30 and 12/01 using the Report files for 11/30, 12/01.
+
+As an aside, Life To Date westhedge numbers are not completely incorporated 
+into the 11/30 through current DPRs, so I will continue to address the Life 
+To Date until it is fixed.

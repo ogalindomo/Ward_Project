@@ -1,0 +1,29 @@
+
+Have accessed the .db files with Mark Fisher and they appear to look good. I 
+will get with Rabi in the morning and test load the files to the development
+side of the Oracle database (STAR).
+
+-John
+
+
+
+
+
+Jeff Duff
+06/24/2002 09:12 PM
+To: John M Ruiz/EWC/Enron@Enron
+cc: Mark Fisher/EWC/Enron@Enron, Patricia Hunter/EWC/Enron@ENRON 
+
+Subject: Auto download tool
+
+John,
+
+If you haven't already taken charge of this, could you work with Patricia to 
+test the data that Kim Nguyen sent.  Be sure to pass on the results of this 
+test to Kim and Ron Brzeniski.  
+
+Mark,  thanks for jumping in.  There are some features of the tool sent from 
+Clemens which may be useful, but I do not think it is ready.
+
+JD
+

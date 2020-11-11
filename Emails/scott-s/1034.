@@ -1,0 +1,52 @@
+
+---------------------- Forwarded by Susan M Scott/HOU/ECT on 12/07/2000 01:51 
+PM ---------------------------
+
+
+Paulo Issler
+12/07/2000 01:49 PM
+To: Zimin Lu/HOU/ECT@ECT
+cc: Susan M Scott/HOU/ECT@ECT, Stinson Gibner/HOU/ECT@ECT 
+Subject: Re: put on collar  
+
+
+I am working on that now.
+
+
+
+
+Zimin Lu
+12/07/2000 11:26 AM
+To: Susan M Scott/HOU/ECT@ECT
+cc: Stinson Gibner/HOU/ECT@ECT, Paulo Issler/HOU/ECT@ECT 
+Subject: put on collar
+
+
+
+I re-compiled Exotica.xll, so that the xcol function is a put on collar.
+
+De-add in your Exotica. Add this special one. And use xcol for put.
+
+Then delete the Exotica_xcol_putoncollar.xll
+
+We will build in this functionality in near future.
+
+
+Zimin
+
+
+
+Paulo,
+
+Can you add a flag to xcol function so that we can choose a put or call from 
+the
+spreadsheet ?
+
+Thanks.
+
+Zimin
+
+
+
+
+

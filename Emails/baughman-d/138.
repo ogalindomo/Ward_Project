@@ -1,0 +1,34 @@
+
+---------------------- Forwarded by Kayne Coulter/HOU/ECT on 02/06/2001 12:18 
+PM ---------------------------
+
+
+Michael Jacobson@ENRON
+02/06/2001 12:13 PM
+To: Kayne Coulter/HOU/ECT@ECT
+cc: Rebecca M Grace/HOU/ECT@ECT, Thresa A Allen/HOU/ECT@ECT, Howard B 
+Camp/HOU/ECT@ECT 
+Subject: Correction Part II
+
+Kayne,
+
+Rebecca brought it to my attention that I got the NY indices reversed.  The 
+following is the correct full list:
+
+New York - 
+ going into PJM (selling to) - NYPP-E
+ going out of PJM (buying from) - NYPP-W
+
+First Energy - PJM-CEI interface
+
+APS (Allegheny) - PJM-APS interface
+
+Internal - 
+ DPL - PJM-Wescosvi
+ others - PJM-Western Hub   (except offset to Day Ahead)
+
+VEPCO - PJM-Virginia Power
+
+Sorry about all the emails, thanks again - 
+Michael
+x35098

@@ -1,0 +1,14 @@
+
+The language in this document does not match exactly what I want to do.  
+
+This product allows the user to in effect enter into two separate financial 
+swaps with dissimilar settlement procedures simultaneously.
+
+A buyer of this product will in every case be buying the NYMEX prompt 
+contract and entering into a simultaneous sale of an equally leveraged volume 
+of Gas Daily swaps.  Each tranaction in this product will create two separate 
+trades to be input into the system.  There is no "settlement" of the spread 
+trade.  
+
+The real problem is working out a procedure for readjusting the number of 
+futures swaps that are traded each day. 

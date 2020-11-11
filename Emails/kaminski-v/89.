@@ -1,0 +1,32 @@
+
+Frank, 
+I checked historical prices for R8. The vols posted by traders seem too high. 
+This causes
+high VAR numbers.
+
+
+Tanya
+
+
+
+
+Tanya Tamarchenko
+05/03/2001 09:40 AM
+To: Frank Hayden/Enron@EnronXgate
+cc:  
+Subject: Re:  
+
+Frank,
+portfolio POWER-NW-LT includes subportfolios EPMI-LT-NW-PR1 and 
+EPMI-LT-NW-EX1.
+The last one has VAR about 29M but when I look at the component VAR for 
+POWER-NW-LT
+there is no VAR corresponding to EPMI-LT-NW-EX1.
+
+This is probably irrelevant to the question we need to resolve: why 
+backtesting for POWER-NW-LT
+does not look that good. Did you check that the prices behavior corresponds 
+to high vols traders post?
+
+Tanya
+

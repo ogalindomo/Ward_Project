@@ -1,0 +1,11 @@
+
+I've tested the "schedule" version of forward obs.  It seems to be working 
+well.  
+
+The wish list might include a summary page to show the desks net 0. And it 
+could use a default that pulls all the west desks when the West portfolio is 
+clicked, while retaining the flexibility of overriding the west default to 
+choose individual desks - HOWEVER - it does work fine the way it is.
+
+Please release this to production and let Fran Chang, Heather Dunton, 
+Samantha Law and Diana Scholtes know when it is released.  Thanks!

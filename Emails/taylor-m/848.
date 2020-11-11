@@ -1,0 +1,21 @@
+
+Just to confirm recent conversations:
+
+1) At the current time, customers must accept the GTC for each new Product 
+Type grouping (e.g. Belgian Gas Physical forward and Belgian Gas Physical 
+Forward Option would each require acceptance of the same GTC).
+
+2) We would like to keep the "deal roadblocks" to a minimum - e.g. we do not 
+want to push customers into reviewing and accepting contracts more often than 
+necessary.
+
+3) We should change EOL so that when a GTC is accepted, all Product Types 
+which reference that GTC will show that the GTC has been already accepted.
+
+
+If anyone disagrees with the above, please let me know ASAP, otherwise I will 
+discuss making the change with Jay.
+
+Thanks,
+
+Dave

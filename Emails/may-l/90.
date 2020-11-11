@@ -1,0 +1,24 @@
+
+Lon,
+
+I added sensitivity of the ostrip premium to the basis offset (output 10)
+for the forward start options in OSTRIP2 model
+
+I added forward vega (7) gas daily vega (8) and Charm (9) previously
+for Larry May.
+
+
+Please find the example spreadsheet and Exotica add-in.   (you need to
+delink your Exotica addin and Browse to select the new addin).
+After you test it, we can put into the release version.   Use the attached 
+addin
+as the temporary one.
+
+Let me know your comments.
+
+Zimin
+
+
+
+
+

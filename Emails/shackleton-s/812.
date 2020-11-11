@@ -1,0 +1,29 @@
+
+FYI.   Information Risk Management  ("IRM") is running a virus check on 
+O:\Common\legal on a daily basis and it was reported this morning that  
+during the last two days "no viruses" were identified.  
+
+ IRM recommends that we do the following to protect against viruses:
+
+Click on Start->run and type (or you can cut and paste):
+
+"C:\Program Files\McAfee\virusScan NT\mcconsol.exe" click Okay
+
+You will get a message from "Virus Scan NT Anti-virus Console" with a status 
+report
+
+When you get into the program, click on help and then about.  The screen 
+should look like this:
+
+
+
+If it doesn't, either call tech support and place a call, or log out properly 
+at night.  
+
+To log out properly, click on start->shut down and either restart the 
+computer or close all programs and log on as a different user.  This will 
+allow the computer to receive the proper version of the virus scan engine and 
+dat file.
+
+
+

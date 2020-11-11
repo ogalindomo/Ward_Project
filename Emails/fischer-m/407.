@@ -1,0 +1,30 @@
+
+Please be advised that the following network shares have been moved to a new 
+server:
+
+Act
+BDEV
+Bids
+Construction
+ExpProjectDocs
+FacilTrk
+MIS
+O&M
+ProjManagement
+Scans
+ServiceRpt
+SiteReports
+
+To connect to the new share locations, double-click on network neighborhood 
+and find the machine called CABFLA06PSGE.  Double-click on the machine.  All 
+of the shares will be listed.  Right-click on the share you wish to map and 
+select Map network drive.  Select the drive letter you wish to use and click 
+on OK.
+
+I apologize for the late notice.  I was not aware that these shares were 
+moved until this morning.  I will send out an update on data moves as soon as 
+I am aware of them, hopefully minimizing your inconvenience.
+
+Thanks.
+
+--D

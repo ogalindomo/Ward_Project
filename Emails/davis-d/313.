@@ -1,0 +1,20 @@
+
+Good Morning!
+
+If I understand correctly you need the paths for the flexfiles for fair value 
+& equity earnings.
+Fair value templates are located O: Stfin/Acctng/Sap Finance/Gl upload 
+template
+
+The equity earnings templates are saved where their respective  EE schedules 
+are kept because they are linked.
+I thought it would be easier that way. 
+
+Co. 914 & 915 EE ---O: Stfin/Acctng/Jedi2/Entries/CS-914-915-EE
+Co. 957 & 961 EE ---O: Stfin/Acctng/Enserco/EqEarn/2000EqEarn/CS-957-961-EE
+Co. 398 -----O: Stfin/Acctng/Jedi/EE schedule/CS-398EE
+
+Let me know if you have any questions. 
+
+Rebecca
+x37061

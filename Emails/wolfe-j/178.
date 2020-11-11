@@ -1,0 +1,18 @@
+
+We would like for everyone to please verify again that you have access to 
+both the following environments:
+
+Sybase Stage:
+Path : Stage Applications / Unify / Unify Gas-Power Stage
+Server: SYB Offset GAS Stage
+Password:  if yours does not work try houston
+
+Sybase Stage:
+Path : Stage Applications / Unify / Unify Gas-Power MSSQL2K Stage
+Server: Unify2k Stage Gas
+Password:  if yours does not work try houston
+
+If you can not access either of these environments please let me know.
+Georgia Ward
+ENW - Development Support - QA
+(713)853-9974

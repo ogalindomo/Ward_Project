@@ -1,0 +1,27 @@
+
+Start Date: 4/21/01; HourAhead hour: 18;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Generation schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001042118.txt
+
+---- Generation Schedule ----
+*** Final schedule not found for preferred schedule.
+     Details:
+
+  TRANS_TYPE: FINAL
+  SC_ID: HARBOR
+  MKT_TYPE: 2
+  TRANS_DATE: 4/21/01
+  UNIT_ID: HARBGN_7_UNITS
+$$$ Variance found in table tblGEN_SCHEDULE.
+     Details: (Hour: 18 / Preferred:  13.00 / Final:  12.89)
+  TRANS_TYPE: FINAL
+  SC_ID: Wheelabrat
+  MKT_TYPE: 2
+  TRANS_DATE: 4/21/01
+  UNIT_ID: MARTEL_2_AMFOR
+

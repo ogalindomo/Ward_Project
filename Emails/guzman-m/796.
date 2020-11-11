@@ -1,0 +1,25 @@
+
+Start Date: 3/10/01; HourAhead hour: 5;  HourAhead schedule download failed. 
+Manual intervention required.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001031005.txt
+!!!General SQL error.
+Couldn't update; currently locked by user 'admin' on machine 'ECTHOU-BPS4'.
+Table
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.
+!!!A user transaction is already in progress.

@@ -1,0 +1,70 @@
+
+I removed Good Friday March 29, 2002 and Memorial Day May 31, 2004 as 
+business days
+from the Production and Stage databases.
+
+Truong Vu
+x 5-3416
+
+
+>  -----Original Message-----
+> From:  Sweeney, Kevin  
+> Sent: Tuesday, March 13, 2001 6:56 PM
+> To: Vu, Truong
+> Cc: Wei, Zhiyong; Husain, Karima; Wong, Jeremy
+> Subject: FW: Holidays in the outmonths
+> 
+> Per my earlier email.  Please remove March 29, 2002 and May 
+> 31, 2004.  I have already requested Labor Days per a previous 
+> emails.  Memorial day would be nice but
+> other than May 31, 2004 is not urgent.
+> 
+>  -----Original Message-----
+> From:  Jeffrey C Gossett  
+> Sent: Monday, March 12, 2001 8:09 PM
+> To: Kevin Sweeney
+> Subject: Re: Holidays in the outmonths
+> 
+> That is fine.
+> 
+> 
+> 
+>  << OLE Object: Picture (Device Independent Bitmap) >> 
+> Kevin Sweeney
+> 03/12/2001 01:25 PM
+> To: Jeffrey C Gossett/HOU/ECT@ECT, Michelle 
+> Bruce/Enron@EnronXGate, John Swinney/Enron@EnronXGate
+> cc: Matt A Brown/Enron@EnronXGate 
+> Subject: Holidays in the outmonths
+> 
+> In the Thunderball application, we have a view of the ERMS 
+> calendars, and look to those calendars to be valid in terms 
+> of business days versus holidays.  The most critical issue is 
+> when an averaging period, for global products normally a 
+> calendar month, start or end date is falling on a  holiday 
+> that is currently marked on the ERMS calendar as a business 
+> day.  I have requested that all labor days be removed from 
+> the calendar since it is the first Monday of each September.  
+> A couple of others are jumping out as potential issues:  
+> Memorial Day and Good Friday.  Memorial day is the last 
+> Monday of each May, and when Good Friday falls in March it 
+> can fall on or around month end.
+> 
+> If nobody has any issues, I want to remove the following days:
+> 
+> March 29, 2002   Good Friday
+> May 31, 2004  Memorial Day
+> Labor Days (per my previous emails)
+> Memorial Days, in general, as they are the last Monday of each May.
+> 
+> Most other holidays fall within the month and consequently 
+> are not as critical.
+> 
+> Let me know if there are any issues.
+> 
+> Thanks,
+> 
+> Kevin
+> 
+> 
+> 

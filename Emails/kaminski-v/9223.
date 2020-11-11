@@ -1,0 +1,28 @@
+
+Hi Dale & Vince,
+
+For your benefit I have compiled a shortlist of the main projects worked on 
+over the past five months:
+
+1) Inflation curve modelling (February and March)
+2) UK Power Monthly Vol Curve generator
+3) Nordic Power Monthly Vol Curve generator
+4) Energydesk.com models & support
+5) Compound options for UK Power desk (options to build power stations)
+6) Continental power non-generic options (using arbitrary trader-specified 
+distributions)
+7) Global products: non-generic options modelling and new commodity forward 
+curve construction (benzene fwd curve from naphtha)
+8) Exotic options library upgrade/model test/bug fixes (e.g. testing new/old 
+Asian models)
+9) Continental gas volatility curve construction
+
+The best summary for this is in the attached presentation that I gave to the 
+London and Oslo staff recently.
+
+Regards,
+
+Anjam
+x35383
+
+Presentation Attached:

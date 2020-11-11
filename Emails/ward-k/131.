@@ -1,0 +1,28 @@
+
+You quoted $5.10 as the total spread you would pay.
+
+So:  $6 + $5.1 = $11.10
+
+Question:  What is the credit you will give Pasadena time their capactiy of 
+3886 MMBtu/d?
+
+Answer:
+To figure out what you are paying for the capacity:
+
+Assume SJ Index = 6.00
+
+Then, 
+Basin Price/(1 - Fuel %) + Variable Cost + Demand Charge (Kim's # for 
+Pasadena) = Border Index
+
+Demand Charge = Border Index - $.026 - (Basin Price/(1- .0388)) 
+
+x = 11.10 - .026 - 6.00/(.9612)
+
+11.10 - .0266 - 6.2422
+
+$4.83 is the implied demand charge 
+
+$4.83 * 3,886 * 29 = Total Credit 
+
+Chris

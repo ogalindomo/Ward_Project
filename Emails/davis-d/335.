@@ -1,0 +1,40 @@
+
+A helpful hint of the day.
+---------------------- Forwarded by Cynthia Morrow/Corp/Enron on 06/23/2000 
+05:19 PM ---------------------------
+   
+	
+	
+	From:  SAP Security                           06/23/2000 04:14 PM
+	
+
+Sent by: Danette Campbell
+To: Enron Apollo & Beyond X Key Site Contacts, ENRON APOLLO AND BEYOND ALL 
+PROJECT TEAM, Enron SAP COE Team - Houston Only
+cc: Betsey Tufano/Corp/Enron@ENRON 
+
+Subject: Support Tips Emails
+
+And you thought that it couldn't get any better.....but it does!!  Keep 
+looking for the Support Tipemails coming soon to LotusNotes everywhere.
+
+So I got my eHROnline ID.....but what's my SAP GUI id???
+The SAP ID that should have been received by users this week was for BOTH eHR
+Online AND the SAP GUI. 
+Also remember that although several people may have been working with alpha 
+IDs (rsmith) for the past several months, these IDs WILL BE TURNED OFF by 
+JULY 15, 2000.  Users are STRONGLY encouraged to begin using their Pid for 
+their GUI transactions, and MUST use their Pid for any time entry on eHR
+Online.
+  
+What about the passwords?
+The passwords are synchronized, so this means that when a user logs on online 
+and changes their initial password from their birthday to one of their 
+choosing it is changed in ALL INSTANCES OF SAP; PR1, PR2 and all online 
+sessions (the online sessions are just an extension of PR1 and PR2).  This 
+new password is now good IN ALL PRODUCTION BOXES, ie. PR1 and PR2.  The users 
+should NOT try and log on to the GUI with their birthday if they have already 
+changed their password online or viceversa.
+
+If you have questions, please contact Betsey Tufano, SAP Security support at 
+X57488.

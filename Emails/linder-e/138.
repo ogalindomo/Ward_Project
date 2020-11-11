@@ -1,0 +1,8 @@
+
+Just a reminder that when entering a wheel, the Interchange ID must be the 
+same for the import and export.  When the Import is labeled as "EPMI_CISO_**" 
+and the Export as "CISO_EPMI_**," the ISO views these as unique imports and 
+exports.  They will not be linked together for a wheel, thus causing 
+ancillary services charges to occur.  
+
+Thank you!

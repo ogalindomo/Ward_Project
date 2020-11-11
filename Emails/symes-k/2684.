@@ -1,0 +1,10 @@
+
+Kroum,
+
+Users are having difficulty deleting term strips in Deal Entry due to the 
+existence of deal_strip_setlmt_ext records.  Is Deal Entry supposed to delete 
+these records explicitly or are we supposed to have a trigger in place to 
+handle this?
+
+Thanks,
+Will

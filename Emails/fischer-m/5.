@@ -1,0 +1,24 @@
+
+If I had looked more closely, I would have seen that bootstrap() returns
+the component "replicates", from which one can compute empirical
+confidence intervals.  Thanks to Peter Ellis and Mark Fisher for their help.
+
+_______________________________________________________________________
+
+DON MCKENZIE
+
+Research Ecologist
+College of Forest Resources, Box 352100
+University of Washington
+Seattle, WA 98195
+
+206.616.4095
+dmck@u.washington.edu
+
+_______________________________________________________________________
+
+
+---------------------------------------------------------------------
+This message was distributed by s-news@lists.biostat.wustl.edu.  To
+unsubscribe send e-mail to s-news-request@lists.biostat.wustl.edu with
+the BODY of the message:  unsubscribe s-news

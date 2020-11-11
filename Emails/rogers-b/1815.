@@ -1,0 +1,31 @@
+
+Yvon,
+
+Please run the sensitivities and present results using a table incorporating 
+the following categories listed vertically down the page.  The results will 
+be tabulated in columns.  The first column will be the base case.  The base 
+case will always reflect the power and vol. curves at mid as of the run date 
+which will be indicated on the report.  A second page should graph the power 
+and oil curves used in the base case.
+
+curve shift
+power vol.
+oil vol.
+correlation oil/power
+residual value
+Debt shape (all initial runs will be $375 mortgage)
+Plant value (all your prior runs called this "Spread")
+Call option (this is the value of the call we will own.  You should footnote 
+a description of the call)
+Plant value (in prior reports you called this spread)
+Fee (this will be 5% of par amount outstanding, 315 MW x $375/kw x 5% = $5.9 
+million)
+Put premium
+Net profit (9 + 10 - 11)
+
+Items 1 - 4 should be shifted +/- 5%, 10%.  That should make 16 runs in 
+total.  We'll build from there.
+
+regards,
+
+Don Black

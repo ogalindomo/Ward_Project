@@ -1,0 +1,26 @@
+
+--
+
+Someone (possibly you) has requested that your email address be added
+to or deleted from the mailing list "tt-esco@lists.nyiso.com".
+
+If you really want this action to be taken, please send the following
+commands (exactly as shown) back to "Majordomo@lists.nyiso.com":
+
+auth a37c2fc2 subscribe tt-esco lcampbel@enron.com
+
+If you do not want this action to be taken, simply ignore this message
+and the request will be disregarded.
+
+If your mailer will not allow you to send the entire command as a single
+line, you may split it using backslashes, like so:
+
+auth a37c2fc2 subscribe tt-esco \
+lcampbel@enron.com
+
+If you have any questions about the policy of the list owner, please
+contact "tt-esco-approval@lists.nyiso.com".
+
+Thanks!
+
+Majordomo@lists.nyiso.com

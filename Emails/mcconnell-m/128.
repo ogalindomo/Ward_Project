@@ -1,0 +1,28 @@
+
+Mike and Jeff,
+
+PEP is set up as follows:
+
+Employee Name  Primary Supervisor  Alternate Supervisor  
+
+Cathy Phillips   McConnell   no alternate
+Eric Gonzales   McConnell   Shankman
+Larry Lawyer   McConnell   Shankman
+George McClellan  McConnell   Shankman
+Dan Reck   McConnell   Shankman  
+Per Sekse   McConnell   Shankman
+
+Gary Hickerson   Shankman   McConnell
+John Nowlan   Shankman   McConnell
+Mark Tawney   Shankman   McConnell
+Jennifer Burns   Shankman   no alternate
+Jennifer Fraser   Shankman   no alternate
+Heather Purcell   Shankman   no alternate
+   
+
+
+Primary = responsible for completing review
+Alternate= read only access
+
+Thanks,
+Shanna

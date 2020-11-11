@@ -1,0 +1,20 @@
+
+Anjam,
+
+Here is the model for fitting the term structure of UK gilts.
+The basic idea is as follows:
+
+dirty price_{ith gilt} = Sum_{j} C_{i}/2*discount factor(t_{j,i} )+ 
+100*discount factor(t_{Ni, i}
+
+Using a five parameters analytical form for the discount factors, and 
+minimizing the sum of
+absolute errors, I can derive a smooth zero curve.   The model needs an 
+initial guess
+for the parameters, this may require some experience. The log file can help 
+you to see
+how well the optimization works.
+
+Let me know if you have any questions.
+
+Zimin

@@ -1,0 +1,11 @@
+
+Joe,
+It seems when I exit out of VisuPro I get the "Illegal Operation" message box 
+. In the details it states that
+"VisuPro caused an invalid page fault in module <unknown> 0000:015clac9"
+
+Although I am able to FTP files and do other commands in VisuPro, should the 
+program be reinstalled?
+
+Thanks
+John

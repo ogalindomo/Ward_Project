@@ -1,0 +1,20 @@
+
+Hi Mark,
+
+Thanks for the analyses and the rapid turnaround.  It's great working with 
+you.
+
+Attached is your spreasheet with a couple of summary plots that you might 
+find interesting.  I have included the previous results you generated for the 
+case where no filtering on wind direction was done.
+
+The results indicate to me that the additional filtering of the data is 
+overall improving the accuracy of the free-stream wind speed estimation 
+(based on the mean nacelle wind speed and mean wind speed ratio), but at the 
+cost of larger standard error because of the reduction in number of samples.  
+Therefore, it seems that additional filtering might not be so valuable 
+afterall.
+
+Any comments?
+
+Philippe

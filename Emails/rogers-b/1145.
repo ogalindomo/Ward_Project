@@ -1,0 +1,16 @@
+
+Gents,
+
+I made the following changes to this model:
+I adjusted all the NPV functions to be as of 12/31/2000.
+I incorporated the seasonal availabilities and capacities into revenue 
+calculations.  Previous to this revision, all monthly merchant revenue was 
+calculated using the Winter availability and Summer capacity.  All monthly 
+PPA revenues were calculated using annual average availability and Summer 
+capacity.
+I cleaned up the update macro and added a nifty status bar progress indicator 
+while the thing's running.
+
+Let me know if you have any other revisions or corrections.
+
+Jon

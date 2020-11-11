@@ -1,0 +1,35 @@
+
+Folks,
+
+ Those of you who have used UNIX are probably familiar with the grep command. 
+It's used to extract lines from a set of files that contain a given input 
+string, and is very useful. (If you have any questions on how to invoke it, 
+ask me.) 
+
+ The grep command is now available in a PC version -- see below.
+
+
+Joe
+
+
+
+---------------------- Forwarded by Joseph Hrgovcic/HOU/ECT on 12/01/2000 
+10:50 AM ---------------------------
+
+
+Carlos Uribe@ENRON
+12/01/2000 11:23 AM
+To: Todd Kimberlain/NA/Enron, Joseph Hrgovcic/HOU/ECT
+cc: Malcolm Wells/NA/Enron, Michael Barber/HOU/ECT 
+Subject: Grep for Windows.
+
+Todd and Joseph,
+
+As discussed earlier, I did recall reading somewhere that grep had been 
+ported to Windows. I did some research and was able to find the Windows 
+ported version of grep. Attached you will find a compressed file that 
+contains the grep binary and source. Please let me know if I can be of any 
+further assistance. Thanks.
+
+
+-carlos

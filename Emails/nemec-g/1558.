@@ -1,0 +1,7 @@
+
+Here is the BR deal which is similiar to Huber.  I think we may have to put
+the actual transport rate as opposed to this pass through.  It should work
+because we will know th rate and volume before we do the deal.  we may want
+an out in case we can't get the space.
+
+ - BR confirm.doc

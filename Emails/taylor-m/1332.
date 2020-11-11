@@ -1,0 +1,19 @@
+
+Paul
+
+There are 2 ways of setting product tenors:
+
+1 - specific, where the start and end dates are selected from drop down 
+calendars on the product manager. 
+
+2 - tokenised, where we have set up a record for the period in the database, 
+and the rules applicable to it (e.g. Balance of Month, Day ahead) - the rules 
+ensure that the specific start and end dates for such a product are shown in 
+the product short description. 
+
+Please note that any tokenised periods will need to be set up prior to 
+building products in the product manager. 
+
+rgds
+
+M

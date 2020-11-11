@@ -1,0 +1,19 @@
+
+Start Date: 3/8/01; HourAhead hour: 1;  No ancillary schedules awarded.  No 
+variances detected.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001030801.txt
+
+---- Generation Schedule ----
+*** Final schedule not found for preferred schedule.
+     Details:
+
+  TRANS_TYPE: FINAL
+  SC_ID: WheelSHAST
+  MKT_TYPE: 2
+  TRANS_DATE: 3/8/01
+  UNIT_ID: WSENGY_1_UNIT 4
+

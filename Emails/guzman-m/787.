@@ -1,0 +1,15 @@
+
+Just a few notes on scheduling:
+
+The new VESTAL_6_WDFIRE unit's counterparty name is SierraPower.  This was 
+being scheduled as Vestal but the counterparty name has been changed.
+
+Also, there have been a few errors in scheduling the Wheelabrator units.  
+They should be scheduled as follows:
+
+Wheelabrat:  MARTEL_2_AMFOR
+WheelSHAST:  WSENGY_1_UNIT 4
+
+Thanks and let me know if you have any questions,
+
+Kourtney

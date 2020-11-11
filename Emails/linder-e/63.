@@ -1,0 +1,19 @@
+
+Start Date: 3/31/01; HourAhead hour: 3;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Generation schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001033103.txt
+
+---- Generation Schedule ----
+$$$ Variance found in table tblGEN_SCHEDULE.
+     Details: (Hour: 3 / Preferred:   4.00 / Final:   3.99)
+  TRANS_TYPE: FINAL
+  SC_ID: SierraPowe
+  MKT_TYPE: 2
+  TRANS_DATE: 3/31/01
+  UNIT_ID: VESTAL_6_WDFIRE
+

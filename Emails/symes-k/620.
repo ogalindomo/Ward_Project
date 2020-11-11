@@ -1,0 +1,21 @@
+
+We have discovered an ingenious new problem plaguing the CA scheduling 
+spreadsheet.  I do not know how this happened, but here is the symptom.  You 
+open a spreadsheet and you see a little version number behind the name like 1 
+or 2.  For example:
+
+ca1212.xls:1
+ca1212.xls:2
+
+Sometimes you may see a file's name several times under Window as if you 
+somehow have several copies of the same spreadsheet open.  This apparently 
+results from selecting Window > New Window.  Never, ever select New Window!  
+I repeat: NEVER, EVER SELECT NEW WINDOW!  Once a worksheet has this version 
+number it is "contaminated" and all sorts of other problems appear.  I'm sure 
+you have noticed new errors popping up when you open or close one of these 
+files.
+
+I am going to create a new worksheet for the 13th from an older file that 
+does not have one of these version numbers.  And we will hope this doesn't 
+happen again.  Please be careful with this.  It sounds trivial but can in 
+fact really screw things up.

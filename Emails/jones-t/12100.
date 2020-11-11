@@ -1,0 +1,27 @@
+
+Please approve the following 2 product types in Data Manager after 11:00 
+A.M.  Attached are the GTC and long descriptions.
+
+
+CAN Recycled OCC Phy
+CAN Recycled ONP Phy
+
+
+
+
+STEPS FOR APPROVAL:
+
+click the  START button 
+select  PROGRAMS
+select  TEST APPLICATIONS
+select ENRONONLINE CLUSTER(PROD)
+ PROCEED WITH USUAL LOGIN/PASSWORD 
+click the Enron Online Production Cluster "START" button  
+select EnronOnLine (this is the EOL Datamanager)
+ PROCEED WITH EOL LOGIN/PASSWORD
+click on the "+" for EnronOnLine
+click on the "+" for Product Types
+click on the "+" for "Awaiting Approval" (OR  "Partially Approved")
+select the product requiring review as stated in e-mail above
+Right "mouse" click on "properties" to view product set-up 
+TO APPROVE:  Right mouse click on "Approved"

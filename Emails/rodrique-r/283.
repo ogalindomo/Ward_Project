@@ -1,0 +1,20 @@
+
+Debbie,
+I spoke with Robin, and from what we know Canada officializes one calc that 
+includes both their price and basis positions.  (Calc is represented by the 
+orange)    However, Risktrac only recognizes the book id to which it assigns 
+the post id. (It appears that it is only the PRC book that comes through, the 
+BAS book is represented by the red "x", however it is in the same calc.).  
+Since the Canadian post id only includes two books ids,  the Benchmark group 
+manually assign the same post id to the basis book, that way both books get 
+picked up.
+
+Does this help?
+
+Frank
+
+
+
+
+
+

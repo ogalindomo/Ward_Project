@@ -1,0 +1,19 @@
+
+Joe Chapman sent us an email listing a short textual description associated 
+with each value of Operating State 29.  Some are easy to interpret (ex. 11 is 
+"Feathering position") because they are a visible element on the state 
+transition diagram in the controller document supplied by Garth.  Others 
+aren't easy to interpret.   Where should we look to understand the triggering 
+criteria for text strings associated with Operating states 0-6 and 13.   We 
+are willing to do the work of reading the documentation if you can tell us 
+what to read.  These values are labeled "Blade angle setpoint (all blades)",  
+" Blade angle plus", "Blade angle minus",  "Blade angle stop", " Blade angle 
+setpoint (single blades)", and "Manual speed setting".    I assume from these 
+names and the fact that they are not common in the SCADA data that all but 
+Blade angle stop are solely used for controller parameter changes or software 
+changes.   We want to use Operating State 29 in our Statistical Process 
+Control and reporting logic but the lack of understanding on these parameter 
+values holds us back.
+
+
+ 

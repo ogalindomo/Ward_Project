@@ -1,0 +1,18 @@
+
+When entering a supplemental deal to sell or buy energy for a service 
+customer with a profit sharing arrangement, we need to enter that service 
+customer as the counterparty in CAPS, and then when the customer is the 
+counterparty in CAPS, the price MUST be zero(or subtract transmission and/or 
+scheduling fee) in Enpower.  If we buy the energy outright from our service 
+customer (such as with CRC), then we enter ECTRT as the counterparty in CAPS, 
+and input the appropriate price to pay the service customer in Enpower.  If 
+we enter the service customer as the counterparty in CAPS and also enter a 
+price greater than zero in Enpower to buy from that customer, we do NOT 
+receive the revenue from California AND we pay the customer the fixed price.  
+Everyone needs to understand this.  IF you have any questions, please ask me, 
+or a senior member of the group.
+
+If you have other questions concerning physical or financial aspects of RT 
+please ask me or bring them to the meeting.
+
+Bill

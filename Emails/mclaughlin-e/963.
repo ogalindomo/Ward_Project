@@ -1,0 +1,18 @@
+
+---------------------- Forwarded by Errol McLaughlin/Corp/Enron on 05/02/2001 
+09:54 AM ---------------------------
+From: Bradley Jones/ENRON@enronXgate on 05/02/2001 01:05 AM
+To: Errol McLaughlin/Corp/Enron@ENRON
+cc:  
+
+Subject: orig
+
+Errol,
+I noticed a small mistake late last night.  Their is West orig on your Orig 
+schedule that is not 0.  It is already on the west schedule so the value just 
+needs to be taken off your orig schedule tab.  
+
+The cells that need to be set = to 0 are p41 and q41
+
+thanks,
+brad

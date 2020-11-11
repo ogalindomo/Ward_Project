@@ -1,0 +1,25 @@
+
+Zhiyang,
+
+Got your message.  
+
+As we discussed, the best way to breakdown the big correlation matrix between 
+different location indices is through "cluster analysis".  The idea is to 
+select major
+hubs and the "satellite" markets.  By establish the correlation between the 
+hubs
+and correlation between the satellites and the hubs, the big matrix can be 
+significantly
+reduced.    Then the traders only need to input the correlations between the 
+hubs.
+
+This technique has been applied in our Value at Risk system.  You may talk to 
+Tanya to find out the details. 
+
+
+Zimin
+
+
+
+
+PS: the wsprd code you requested.

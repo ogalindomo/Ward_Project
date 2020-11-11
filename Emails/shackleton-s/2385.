@@ -1,0 +1,42 @@
+
+Legal/Commercial:
+
+Here is my suggestion for the PJM Index. I will use a PJM Peak Loadshape that 
+mirrors the ISO NE and ISO NY Loadshape.
+
+
+Kenny; et al:
+
+Please map in TEST and PROD
+
+Index:  PJM Interconnection
+Abb:  PJM InterC
+Sort Code: 
+Desc:  The Floating Price during a Determination Period shall be the average 
+of the hourly prices listed in the Index (in final, not estimate, form) for 
+electricity delivered during Peak hours on each Delivery Day during the 
+applicable Determination Period.  The Floating Price for each Determination 
+Period shall be calculated utilizing the hourly clearing prices published by 
+PJM Interconnection, LLC on its official web site currently located at 
+http://www.pjm.com/pub/account/lmp/index.html, or any successor thereto, 
+under the heading "PJM - Locational Marginal Pricing Files"  (the "Index").
+
+
+Dale
+3-9746
+
+
+
+
+
+Eric Saibi@ENRON
+06/13/2000 12:13 PM
+To: Dale Neuner/HOU/ECT@ECT
+cc:  
+Subject: PJM Prices
+
+The appropriate address is ftp://www.pjm.com/pub/account/lmp/index.html
+
+This is the same as going to www.pjm.com, clicking on "Market & System Data", 
+and then clicking on "Daily Real Time LMP Data".
+

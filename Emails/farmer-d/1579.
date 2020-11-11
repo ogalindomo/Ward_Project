@@ -1,0 +1,14 @@
+
+During mid-july, SITARA will change the logic on Desk to Desk deals to post 
+the volume associated with the Sales (Seller) side to the SITARA deal.  
+Currently, the volume on the Receipt (Buyer) side is being posted.  This 
+change will be implemented in order to coincide with the logic currently 
+being used in SAP.  This change should help to avoid Intercompany imbalances.
+
+Please be aware that this change will effect Desk to Desk deals only.  The 
+logic on Transport Usage deals will remain as it is currently - Delivery 
+Point (To) - posts to the SITARA deal.
+
+If you have any questions, please give me a call at X39222.
+
+Chao!

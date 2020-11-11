@@ -1,0 +1,19 @@
+
+Start Date: 4/29/01; HourAhead hour: 9;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Generation schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001042909.txt
+
+---- Generation Schedule ----
+$$$ Variance found in table tblGEN_SCHEDULE.
+     Details: (Hour: 9 / Preferred:  10.00 / Final:   9.79)
+  TRANS_TYPE: FINAL
+  SC_ID: ARCO
+  MKT_TYPE: 2
+  TRANS_DATE: 4/29/01
+  UNIT_ID: CARBGN_6_UNIT 1
+

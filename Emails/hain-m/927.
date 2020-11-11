@@ -1,0 +1,27 @@
+
+Good Morning,
+
+We will be rolling out a new version of Deal Entry & Deal Blotter this 
+afternoon to support California scheduling & volume management.  For most of 
+the users, there will be no impact except for a few new fields that can be 
+ignored in Enpower's Deal Entry.  Below is a list of the changes:
+
+
+Deal Entry (These fields should only be populated for California deals)
+1.  Added Settlement Entity - Identifies where the power is scheduled and 
+settled.
+
+2.  Added Sched Coordinator - Identifies the coordinator responsible for 
+scheduling the power.
+
+3.  Schedule Type - Defines the type of schedule used in California.
+
+4.  Market Reference - Defines the market when the power will flow.
+
+Deal Blotter 
+1.  Deal Blotter will be defaulting these 4 values if the deal is in 
+California.
+
+Thanks,  David Poston
+
+ 

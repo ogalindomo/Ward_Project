@@ -1,0 +1,18 @@
+
+Sevil and others,
+
+I have attached a detailed map of the ERCOT system, 69, 138 and 345 KV line 
+and buses (*.pwd).   The map is based on the 2001 Summer peak load flow case. 
+(Enron paid about $12,000 for this map so we do not need to disclose it to 
+outside personnel.)
+
+I also have a detailed map of the eastern interconnect, I believe it is down 
+to the 138 KV level.
+
+I have also attached a 2001 contingency file (*.ctg) for ease of importing a 
+standard list of line contingencies that I obtained from the ISO.
+
+I have also attached an ERCOT injection group (*.aux) , which is valuable for 
+the years after 2001 because of one constrol group. 
+
+   

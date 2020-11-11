@@ -1,0 +1,9 @@
+
+We are going to start using a single application to wait for PX prices in the 
+morning (get funky) and to upload specific prices manually.  Whereas in the 
+past we used an application called PX_Live and an application called 
+PX_Capture, we will now use just one application called PX_Capture.
+
+You can get to this application from the Portland menu (Start > Programs > 
+Portland > Scheduling > PX_Capture.exe).  The PX_Live choice will go away 
+from your menu choice.

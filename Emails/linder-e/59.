@@ -1,0 +1,54 @@
+
+Start Date: 3/30/01; HourAhead hour: 23;  No ancillary schedules awarded.  
+Variances detected.
+Variances detected in Generation schedule.
+Variances detected in Energy Import/Export schedule.
+Variances detected in Load schedule.
+
+    LOG MESSAGES:
+
+PARSING FILE -->> O:\Portland\WestDesk\California Scheduling\ISO Final 
+Schedules\2001033023.txt
+
+---- Generation Schedule ----
+$$$ Variance found in table tblGEN_SCHEDULE.
+     Details: (Hour: 23 / Preferred:   0.00 / Final:   0.00)
+  TRANS_TYPE: FINAL
+  SC_ID: ARCO
+  MKT_TYPE: 2
+  TRANS_DATE: 3/30/01
+  UNIT_ID: CARBGN_6_UNIT 1
+
+
+
+---- Energy Import/Export Schedule ----
+$$$ Variance found in table tblINTCHG_IMPEXP.
+     Details: (Hour: 23 / Preferred:  50.00 / Final:   0.00)
+  TRANS_TYPE: FINAL
+  SC_ID: ECTRT
+  MKT_TYPE: 2
+  TRANS_DATE: 3/30/01
+  TIE_POINT: PVERDE_5_DEVERS
+  INTERCHG_ID: EPMI_CISO_SCOUT
+  ENGY_TYPE: WHEEL
+$$$ Variance found in table tblINTCHG_IMPEXP.
+     Details: (Hour: 23 / Preferred:  50.00 / Final:   0.00)
+  TRANS_TYPE: FINAL
+  SC_ID: ECTRT
+  MKT_TYPE: 2
+  TRANS_DATE: 3/30/01
+  TIE_POINT: SYLMAR_2_NOB
+  INTERCHG_ID: EPMI_CISO_SCOUT
+  ENGY_TYPE: WHEEL
+
+
+
+---- Load Schedule ----
+$$$ Variance found in table tblLoads.
+     Details: (Hour: 23 / Preferred:   0.47 / Final:   0.04)
+  TRANS_TYPE: FINAL
+  LOAD_ID: PGE1
+  MKT_TYPE: 2
+  TRANS_DATE: 3/30/01
+  SC_ID: EPMI
+

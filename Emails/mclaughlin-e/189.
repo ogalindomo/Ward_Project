@@ -1,0 +1,32 @@
+
+Robin - the NG-PRICE2-PRC book is now set up in RisktRAC and has been placed 
+in the respective portfolios.  Please contact me if you have any questions.
+
+Thank you,
+Susan
+x3-1462
+
+
+
+
+
+Robin Rodrigue
+02/21/2001 09:13 AM
+To: Susan D Trevino/HOU/ECT@ECT
+cc: Errol McLaughlin/Corp/Enron@ENRON 
+Subject: New Book
+
+Susan,
+
+The NG-PRICE-PRC book will now be calculated using two post ids.  Therefore, 
+we need an additional RisktRAC book id for the Price book so that we can 
+capture both post ids.  Please set up an NG-PRICE2-PRC book with the same 
+attributes as the NG-PRICE-PRC book.  The new books needs to be added to the 
+AGG-GAS, AGG-GASIII and AGG-GASIV portfolios.  In AGGIII and IV, please set 
+up a separate portfolio for the new book.  The new portfolio should be named 
+M_Maggi.  
+
+If you have any questions, give me a call.
+Thanks,
+Robin
+

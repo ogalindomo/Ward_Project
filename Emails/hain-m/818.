@@ -1,0 +1,27 @@
+
+request_number:  BPA-IN:02
+firstname:  Linc
+lastname:  Wolverton
+e-mail:  lwolv@worldaccessnet.com
+exhibit_wp-02-e-:  IN-02
+page_numbers:  11
+request_text:  On page 11, lines 20-23, reference is made to the use of 
+revenue and price data provided in BPA's documentation.  However, no cite was 
+provided.  Please provide the appropriate cite to BPA's documentation.  If 
+the documentation is computer files provided by BPA in its response to a data 
+request, please cite the appropriate data request.
+
+
+response_text:  The information was provided in BPA's response to 
+IN-BPA-027.  The computer file is named:
+
+ RevSim0102_S2000_AugmFull_FY02$210_LR1500.xls
+
+
+The following information is from the web server:
+1.  Logon: IUSR_GRANITE
+2.  Remote Host:  63.230.164.97
+3.  Remote IP Address:  63.230.164.97
+4.  Form URL:  
+https://secure.bpa.gov/power/secure/psp/ratecase/discovery/wp_02_response.html
+5.  Browser Client:  Mozilla/4.73 [en]C-DIAL  (Win98; U)

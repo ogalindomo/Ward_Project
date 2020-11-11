@@ -1,0 +1,16 @@
+
+Mark,
+
+Further to our discussion as to which licenses might have impact on 3rd party 
+stack:
+
+Tibco (which you are already looking at)
+Oracle (is suspected to be a problem)
+Weblogic
+Apache (very low cost - prob. not a big concern)
+
+SSL does not require a license.
+
+I have requested license copies from Carmen Ayala.
+
+Dave

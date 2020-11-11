@@ -1,0 +1,19 @@
+
+Everybody,
+
+I attached here the Equity Portfolio VAR spreadsheet model (Version X).
+The improvement over the previous version (1X) is that it calculates
+an additional measure of risk - Expected Tail Loss.  
+
+Expected Tail Loss is the expectation of the loss under the condition that
+losses exceed VAR . As you know Equity VAR model allows you to calculate VAR
+for the percentile specified in the input sheet.
+
+Now you have to click 2 more buttons on the "VarInput" sheet:
+"Calculate Gamma and Delta" and "Fast VAR".
+
+Isaac, please run the model to make sure it works for you.
+
+Regards,
+
+Tanya

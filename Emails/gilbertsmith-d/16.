@@ -1,0 +1,22 @@
+
+After corresponding with various members of the OWG, PIWG, ISONP, and
+ERCOT,  Reliant would like to propose the following change to compensation
+for relieving local congestion:
+
+When a resource is instructed to reduce its scheduled deliveries in order
+to help relieve local Congestion and a Market Solution does not exist, the
+compensation mechanism will always result in a zero sums gain to the QSE
+for that instruction to the resource.  Basically, whatever the QSE is
+charged or credited due to resource imbalance due to such an instruction
+will be offset by the OOME payment so that the net effect is always zero.
+
+The recommended language changes to section 6.8.2.2 are attached.
+
+
+Manny
+
+(See attached file: Sect6Reliant1201.doc)
+
+
+
+ - Sect6Reliant1201.doc

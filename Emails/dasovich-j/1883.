@@ -1,0 +1,27 @@
+
+Dear Haas Community,
+
+Sunday Oct 1st, 2000 between 0600 and noon several Haas  servers will be
+shut down for planned  maintenance and upgrades.  Servers will include
+the  Windows Internet Name Servers and the Backup Domain Controllers.
+
+Services affected will be NT domain name resolution, and logon services to
+the Haas NT domain.  These services will be generally available during the
+maintenance period, but may
+be slower than usual, and may experience brief (15 min) periods of
+interruption.  These degradations will impede your ability to logon the  NT
+domain and to map Network drives.
+
+Email services should not be affected.
+
+As always,  should you experience any problems with computing services
+following the maintenance, please contact the information desk in the
+Computer Center, or helpdesk at http://helpdesk.haas.berkeley.edu, phone
+510/642-0434.
+
+Your patience is greatly appreciated.
+
+Thank you.
+
+-----------------------
+Haas Computing Services
