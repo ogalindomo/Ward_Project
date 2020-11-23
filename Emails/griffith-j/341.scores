@@ -1,0 +1,9 @@
+"On your workstation, shut CQG down...Find the Hard Drive Letter where CQG was installed such as C or D...Go there using either My Computer or Explorer...Find the CQG Folder and open it up...Find the 5x265 folder and open it up...Find the Private folder..."
+"Within the Private folder are several sub folders (Log, Page and Temp)...Delete the Temp folder by RIGHT Clicking on it and then LEFT Clicking onDelete."
+Restart CQG and you should be able to see the prices you've been missing.
+Regarding the 5x265 update to 5x270 messages:  This is due to our runningdifferent Client(5x265)  and Server(5x270) versions at Enron at this time.
+I have already submitted a fix for this and it will be taken care of as soonas the Enron Servers are restarted - which will be done tonight I hope.
+We will be upgrading both Server and Client versions within the next coupleof weeks.
+"Please contact me if you have any questions or if there's anything else Ican do, etc..."
+Thanks.
+"M. Scott KnowlesCustomer SupportCQG, Denver720-904-2975"

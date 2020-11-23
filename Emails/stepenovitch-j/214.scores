@@ -1,0 +1,26 @@
+"---------------------- Forwarded by Kayne Coulter/HOU/ECT on 04/27/2001 12:=55=20PM ---------------------------From: Bill Rust/ENRON@enronXgate on 04/27/2001 12:53 PMTo: Kayne Coulter/HOU/ECT@ECT, Jim Homco/HOU/ECT@ECT, Lloyd Will/HOU/ECT@EC=T,=20Jeffrey Miller/NA/Enron@Enron, Tom May/Corp/Enron@Enron, Clint=20Dean/Corp/Enron@Enron, Smith L Day/HOU/ECT@ECTcc: Christi L Nicolay/HOU/ECT@ECT=20Subject: RE: MDEAPlease see my comments in red below."
+"Thanks - Bill RustTransmission Scenarios for MDEAWhat would the following procedures be for MDEA=01,s network services."
+1.
+Buying megawatts from the market and bringing in from outside of Entergy=.
+a. Ex.
+"AEP-TVA-EES-MDEAFor day-ahead (or earlier), put in a network request (designated resources)==20on the Entergy OASIS, POR=3DTVA, POD=3DEES, SOURCE=3DAEP, SINK=3DMDEA, BID =PRICE =3D=20$0.0."
+The request will be subject to interface availability and will be=20evaluated by Entergy accordingly.
+2.
+Buying megawatts from the market inside of Entergy.
+=20a. Ex.
+"Lagen- MDEAFor day-ahead (or earlier), put in a network request (designated resources)==20on the Entergy OASIS, POR=3DLAGN, POD=3DEES, SOURCE=3D(LAGN UNIT NAME), SIN=K=3DMDEA,=20BID PRICE =3D $0.0."
+The request will be subject to availability and will b=e=20evaluated by Entergy accordingly.
+(If the source is an Entergy unit (or AXI=A)=20use POR=3DEES.=203.
+"Using the network services request number for the Sepa contract when Sep=a=20is not flowing and we can bring MGW=01,s in from the Tva border."
+a. Ex.
+"We find 11 MGW=01,s  LGE-TVA-EES-MDEA."
+"For day-ahead (or earlier), put in a network request (designated resources)==20on the Entergy OASIS, POR=3DTVA, POD=3DMDEA, SOURCE=3DLGE, SINK=3DMDEA, BID= PRICE =3D=20$0.0."
+Put a comment in the request that states this request is modifying=20(displacing) the existing request (SEPA; OASIS #851472).
+- I need to clarif=y=20this with Entergy but this is the approach I recommend.
+"NOTE: When scheduling on the above requests, the transmission is considered==20F-7 priority level."
+"When you want to schedule intra-day (hourly), you must==20request non-firm (import for Native/NST loads."
+This type of transmission is==20NN-6 priority level.
+Remember - all bid prices are $0.0 because MDEA is charged by their load=20share ratio.
+This is all of the scenarios that I can think of that may cause a problem.
+= I=20just want to make sure that everyone is on the same page especially with=20Entergy Transmission.
+"-----Original Message-----From:  Coulter, Kayne =20Sent: Friday, April 27, 2001 7:49 AMTo: Homco, Jim; Will, Lloyd; Miller, Jeffrey; May, Tom; Dean, Clint; Day,==20SmithCc: Rust, Bill; Nicolay, ChristiSubject: MDEAI have attatched some transmission scenarios=20 << File: Transmission Scenarios for MDEA.doc >>=20please comment=20ThanksKayne Coulter"

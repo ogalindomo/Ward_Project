@@ -1,0 +1,5 @@
+John:I think I like the approach you took in your first spreadsheet.
+Note that the spread option model takes rates expressed as continious rates.
+That is not consistent with the rates we have on our AA curves.
+I suggest you change to your original valuation.
+ThanksPaulo Issler
