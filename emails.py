@@ -2,6 +2,7 @@ import nltk, csv
 from glob import glob
 import pandas as pd
 import numpy as np
+from sklearn.linear_model import LinearRegression, LogisticRegression
 
 sentence_tokenizer = nltk.data.load("tokenizers/punkt/english.pickle")
 stopwords = nltk.corpus.stopwords.words("english")
@@ -81,8 +82,10 @@ def score_sentence(sentence, word_frequencies):
 
     score = 0
     for word in nltk.word_tokenize(sentence):
-        score += word_frequencies[word]
-
+        if word in word_frequencies:
+            score += word_frequencies[word]
+        else:
+            score += 0.001
     return score
 
 def summarize_email(email, word_frequencies):
@@ -98,87 +101,103 @@ def summarize_email(email, word_frequencies):
     print(f"max score: {max_score}")
     print(f"summary: \n{sentences[max_score]}\n")
 
+    return sentences[max_score]
+
 def tokenize_emails():
-    # emails = get_email_files()
     folders = glob("./Emails/*")
 
-    for f in folders:
-        print(f)
+    # oscar
+    # griffith-j
+    # stepenovitch-j
+    
+    # aaron
+    # lay-k
+    # cash-m
 
-    folder = input("pick a folder: ")
+    # isaac
+    # king-j
+    # maggi-m
 
-    files = glob("./Emails/"+folder+"/*")
+    folders = ["griffith-j", "stepenovitch-j", "lay-k", "cash-m", "king-j", "maggi-m"]
 
-    for f in files:
-        print(f)
+    for folder in folders:
 
-    email = input("pick a file: ")
+        files = glob("./Emails/"+folder+"/*")
 
-    emails = ["./Emails/" + folder + "/" + email]
+        for email in files:
 
-    # print(emails)
-    # exit(1)
+            print(f"tokenizing: {email}\n")
+            with open(email, "r", encoding="utf-8") as f:
+                with open(email+"scores", "w", encoding="utf-8") as g:
+                    data = f.read()
 
-    for email in emails:
-        print(f"tokenizing: {email}\n")
-        with open(email, "r", encoding="utf-8") as f:
-            with open(email+"scores", "w", encoding="utf-8") as g:
-                data = f.read()
+                    writer = csv.writer(g)
 
-                writer = csv.writer(g)
+                    # print(data)
+                    sentences = sentence_tokenizer.tokenize(data)
 
-                # print(data)
-                sentences = sentence_tokenizer.tokenize(data)
+                    for s in sentences:
+                        writer.writerow([s.replace("\n", "")])
 
-                for s in sentences:
-                    scores = [s.replace("\n", "")]
-                    for word in nltk.word_tokenize(s):
-                        # print(word)
+def get_training_data():
+    emails = glob("./tags/*/*")
 
-                        word_score = input(f"\n{word}: ")
-                        if word_score == "":
-                            word_score = 0.0
-                        scores.append(word_score)
+    return emails
 
-                    sentence_score = input(f"\n0 or 1\n{s}: ")
-                    scores.append(sentence_score)
+def accuracy(y_true,y_pred):
+    return np.sum(y_true==y_pred)/y_true.shape[0]
 
-                    print(scores)
-
-                    writer.writerow(scores)
-
-                # print(sentences)
-                # with open(email+"tokens", "w", encoding="utf-8") as g:
-                #     writer = csv.writer(g, delimiter="\n")
-
-                #     writer.writerows([sentences])
-
-
+def mse(p,y):
+    return np.mean((p-y)**2)
 
 def main():
-    # emails = get_all_emails(limit=25)
-    # sentences = create_sentences(emails)
-    # # print(sentences)
 
-    # word_frequencies = create_word_frequencies(sentences)
-    # # print(word_frequencies)
+    emails = get_training_data()
 
-    # # s = sentences[0]
-    # # print(f"example sentence: {s}")
-    # # print(f"sentence score:   {score_sentence(s, word_frequencies)}")
+    scores = {}
 
-    # summarize_email(emails[1], word_frequencies)
+    # preprocessing
+    for email in emails:
+        with open(email, "r", encoding="utf-8") as f:
+            text = f.read()
 
-    # scores = []
-    # for sentence in sentences:
-    #     scores.append(score_sentence(sentence, word_frequencies))
+            lines = text.splitlines()
+
+            for line in lines:
+                data = line.split(";")[:2]
+                if len(data) == 2 and len(data[1].strip()) == 1:
+                    scores[data[0].strip('"').replace("\n", "")] = int(data[1].strip())
+
+    # put the sentences and the scores in separate arrays
+    sentences = list(scores.keys())
+    values = list(scores.values())
+
+    # split into train and test data
+    X_train = sentences[:int(len(sentences)*.9)]
+    X_test = sentences[int(len(sentences)*.9):]
+
+    y_train = values[:int(len(sentences)*.9)]
+    y_test = values[int(len(sentences)*.9):]
+
+    assert len(X_test) == len(y_test)
+    assert len(X_train) == len(y_train)
+
+    # X_train and X_test are currently arrays of strings
+    # we need to turn these into real values by using the frequency scores
+    word_frequencies = create_word_frequencies(X_train)
+    # print(word_frequencies)
+
+    X_train_real = np.array(list(map(lambda x: score_sentence(x, word_frequencies), X_train))).reshape(-1, 1)
+    X_test_real = np.array(list(map(lambda x: score_sentence(x, word_frequencies), X_test))).reshape(-1, 1)
     
-    # df = pd.DataFrame({"sentence": sentences, "score": scores})
-    # # print(df)
+    # logistic regression
+    model = LogisticRegression()
+    model.fit(X_train_real, y_train)
 
-    # df.to_csv("scores.csv", index=False)
+    pred = model.predict(X_test_real)
 
-    tokenize_emails()
+    print(f"accuracy: {accuracy(pred, y_test)}")
+
 
 if __name__ == "__main__":
     main()
