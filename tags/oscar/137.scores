@@ -1,0 +1,11 @@
+"Dear john.griffith@enron.com,Your eBay User ID change process is completed!"; 0;
+"Your User ID before this change was ""john.griffith@enron.com""."; 1;
+"Your User ID after this change will be ""2milldesign""."; 1;
+"NOTICE:Because you have changed your User ID, you may need to update certain eBayfeatures which depend on it."; 0;
+Features selected for use with your old UseID will cease to work after 30 days.; 0;
+"*  If you have bookmarked your My eBay page or a seller search resultspage, you'll need to re-bookmark those pages."; 0;
+"*  If you use an eBay link button to display a list of your auctions fromyour own web page, The HTML tag provided for that link button containsyour old User ID."; 0;
+There are two ways to make this change:(1) Visit http://pages.ebay.com/services/buyandsell/link-buttons.html to request a new HTML tag.; 0;
+--OR--(2) Update the HTML in the source code on your web page by replacing yourold User ID with your new one.; 0;
+Thank you for using eBay!; 0;
+http://www.ebay.com; 0;

@@ -1,0 +1,10 @@
+"Dutch,As of this morning, Jeremy has noticed that the daily change and Vega is kind of a bit too much with the vol skewand identified that there was an error in my code for passing the prior day MidPr, which caused errors inthe Prior day value and daily change numbers."; 1;
+Now the code is fixed.; 1;
+"I run a few new post_id, and the changes look much smooth."; 0;
+For March 27 run:NGPROpt book 1084746 copied into 1086213(with skew)calls 1085788 and 1086211(with skew)puts 1085015 and 1086212(with skew)done with Jeremy's excutible of port_calc on stage.; 0;
+"-----Original Message-----From:  Wei, Dave  Sent: Wednesday, March 28, 2001 10:13 AMTo: Quigley, Dutch; Jeremy Wong/HOU/ECT@ENRONCc: Griffith, John; McLaughlin, Errol; May, LarrySubject: RE: Skew ProjectFor March 27 run:NGPROpt book 1084746 copied into 1085734(with skew)calls 1085788 and 1085790(with skew)puts 1085015 and 1085016(with skew)done with Jeremy's excutible of port_calc on stage."; 0;
+"-----Original Message-----From:  Quigley, Dutch  Sent: Friday, March 23, 2001 12:55 PMTo: Wei, Dave; Jeremy Wong/HOU/ECT@ENRONCc: Griffith, John; McLaughlin, Errol; May, LarrySubject: Skew ProjectDave,To follow up on our conversation about the Pipe Option Book, Errol will provide post id's for Friday's COBto calc the pipe options book with the skew table."; 0;
+"As I asked on the phone please provide two calcs, one calcfor the pipe options deals with and with out skew and another calc with the NYMEX options deals with and without skew."; 0;
+"In addition to this, please recalc  1078960 & 1078963 for the ngpropt book."; 0;
+These calcs are for puts and for calls for COB 3-23.; 0;
+If you have any questions please contact me at 3-9257 with any questionsDutch; 0;

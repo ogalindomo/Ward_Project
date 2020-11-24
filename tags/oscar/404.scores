@@ -1,0 +1,18 @@
+"John:(1) Regarding OptionGrid, Samer can provide you a version that does not write out empty grids to the file by tomorrow."; 1;
+He will then try to increase the max.; 1;
+number of grids from 95 to 320.; 1;
+"And we will write the file to a common drive that you can access from Windows, without having to FTP the file from the Unix to the NT drive."; 0;
+I will check with my director (Zhiyong Wei) to see if we can move up the timeline for the OptionGrid running on Windows project.; 1;
+(2) Regarding actual gamma: PriceDelta = Today's Mid.; 1;
+Price - Prior Day's Mid.; 1;
+"PriceActual delta     = Prior Day's (Option Library) delta * PriceDeltaActual gamma = Prior Days' (Option Library) gamma * 0.5 * (PriceDelta * PriceDelta)(3) Regarding the Asian model, the number of calendar days in a year is 365.25 for the new version using calendar days."; 1;
+We have to merge the new version into the current production PortCalc that has the vol.; 1;
+skew changes.; 1;
+We should have that in a couple of days.; 1;
+I will inform Errol when we are ready for him to start testing.; 1;
+(4) Dave is looking into changing PortCalc to provide 2 actual Vegas - one without skew and one with skew.; 1;
+"From our preliminary analysis, it would require PortCalc, database and report changes to do this."; 0;
+Would you also require 2 predictive Vegas and also sensitivities (i.e.; 0;
+"+/- 1, 2.5, 5 or 10 % vol.)"; 0;
+changes also?; 0;
+Jeremyx3-0573; 0;

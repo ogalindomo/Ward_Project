@@ -1,0 +1,5 @@
+"John,For a down and out put, I put the following as an approximation for our understanding purpose."; 0;
+a down and out put with barrier B < strike Kis overestimated byA put at struck at K - a put struck at B - (K-B)*digital put strike at B.I ploted the barrier put (blue line)  versus the approximation (red line) as function of the barrier.; 0;
+The true barrier option has zero payoff whenever there is a touch down the barrierduring the lifetime of the option.; 0;
+Therefore it goes to zero much faster thanabove approximation when B -> K.See the spreadsheet for more details.; 0;
+Zimin; 0;
