@@ -4,6 +4,7 @@ This file utilizes all the functions from the other files to
 generate and evaluate predictions on the importance of the sentences
 """
 import Utilities as util,Evaluation as eval, ScoreModel, LogisticModel
+import numpy as np
 
 
 if __name__ == "__main__":
@@ -38,14 +39,45 @@ if __name__ == "__main__":
     #Make predictions using the logistic model and evaluate them
     log_train_pred = LogisticModel.predict_importance(log_train, y_train, log_train)
     eval.evaluate(log_train_pred, y_train, "Training")
-    
+
     #Setup the testing data for the logistic model
     score_test_pred = ScoreModel.predict_importance_score(scores_train, y_train, scores_test)
     log_test = LogisticModel.combine(score_test_pred, size_test, embedding_test)
     
     #Make predictions using the logistic model and evaluate them
+    # scores, lengths, and embeddings
     log_test_pred = LogisticModel.predict_importance(log_train, y_train, log_test)
     eval.evaluate(log_test_pred, y_test, "Testing")
+
+
+
+    # scores only
+    log_test = np.array(score_test_pred).reshape(-1, 1)
+    log_train = np.array(score_train_pred).reshape(-1, 1)
+    # predict and evaluate
+    log_test_pred = LogisticModel.predict_importance(log_train, y_train, log_test)
+    eval.evaluate(log_test_pred, y_test, "Testing with Scores Only")
+
+
+
+    # scores and lengths only
+    log_test = np.array([score_test_pred, size_test]).reshape(-1, 2)
+    log_train = np.array([score_train_pred, size_train]).reshape(-1, 2)
+    # predict and evaluate
+    log_test_pred = LogisticModel.predict_importance(log_train, y_train, log_test)
+    eval.evaluate(log_test_pred, y_test, "Testing with Scores and Lengths Only")
+    
+
+
+    
+    
+    
+
+
+    
+
+
+    
     
     
     
