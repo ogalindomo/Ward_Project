@@ -24,10 +24,8 @@ def create_word_frequencies(sentences):
 
     # Compute maximum value and normalize the values
     max_count = np.max(list(word_counts.values()))
-    word_frequencies = {word: value / max_count for word, value in word_counts.items()}
+    word_frequencies = {word: max_count/value for word, value in word_counts.items()}
     return word_frequencies
-
-
 
 #Give each sentence a score by computing the sum of its word frequencies
 def score_sentence(sentence, word_frequencies):
