@@ -3,9 +3,11 @@ from glob import glob
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score, confusion_matrix 
+import matplotlib.pyplot as plt
 
-nltk.download('punkt')
-sentence_tokenizer = nltk.data.load("/Library/Frameworks/Python.framework/Versions/3.8/lib/nltk_data/tokenizers/punkt/english.pickle")
+# nltk.download('punkt')
+sentence_tokenizer = nltk.data.load('nltk:tokenizers/punkt/english.pickle')
 stopwords = nltk.corpus.stopwords.words("english")
 
 def get_email_files():
@@ -146,7 +148,7 @@ def get_training_data():
     return emails
 
 def accuracy(y_true,y_pred):
-    return np.sum(y_true==y_pred)/y_true.shape[0]
+    return accuracy_score(y_true, y_pred)
 
 def mse(p,y):
     return np.mean((p-y)**2)
@@ -335,7 +337,7 @@ if __name__ == "__main__":
     model = LinearRegression()
     model.fit(X_train_real, y_train)
     pred = model.predict(X_train_real)
-    ##########
+    ##########fraction
     sizes = get_sizes(X_train)
     e = get_sentence_embedding(X_train)
     new_train = combine3(pred, sizes,e)
@@ -344,8 +346,26 @@ if __name__ == "__main__":
     l_r.fit(new_train, y_train)
     pred = l_r.predict(new_train)
     print_fraction(y_train)
+    print("=== Metrics on Training Data ===")
     print(f"accuracy: {accuracy(pred, y_train)}")
+    print(f"precision: {precision_score(pred, y_train)}")
+    print(f"recall: {recall_score(pred, y_train)}")
+    print(f"f1: {f1_score(pred, y_train)}")
+    print("confusion matrix:")
+    conf_matrix = confusion_matrix(pred, y_train)
+    print(f"{conf_matrix}")
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.matshow(conf_matrix, cmap=plt.cm.Oranges, alpha=0.3)
+    for i in range(conf_matrix.shape[0]):
+        for j in range(conf_matrix.shape[1]):
+            ax.text(x=j, y=i,s=conf_matrix[i, j], va='center', ha='center', size='xx-large')
     
+    plt.xlabel('Predictions', fontsize=18)
+    plt.ylabel('Actuals', fontsize=18)
+    plt.title('Confusion Matrix', fontsize=18)
+    plt.savefig('confusion_matrix_train.png')
+
+
     e = get_sentence_embedding(X_test)
     
     r = combine3(model.predict(X_test_real), get_sizes(X_test),e)
@@ -353,5 +373,21 @@ if __name__ == "__main__":
     pred = l_r.predict(r)
     
     print_fraction(y_test)
-    print(f"accuracy: {accuracy(pred, y_test)}")    
+    print("\n\n=== Metrics on Test Data ===")
+    print(f"accuracy: {accuracy(pred, y_test)}")
+    print(f"precision: {precision_score(pred, y_test)}")
+    print(f"recall: {recall_score(pred, y_test)}")
+    print(f"f1: {f1_score(pred, y_test)}")
+    print("confusion matrix:")
+    conf_matrix = confusion_matrix(pred, y_test)
+    print(f"{conf_matrix}")
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.matshow(conf_matrix, cmap=plt.cm.Oranges, alpha=0.3)
+    for i in range(conf_matrix.shape[0]):
+        for j in range(conf_matrix.shape[1]):
+            ax.text(x=j, y=i,s=conf_matrix[i, j], va='center', ha='center', size='xx-large')
     
+    plt.xlabel('Predictions', fontsize=18)
+    plt.ylabel('Actuals', fontsize=18)
+    plt.title('Confusion Matrix', fontsize=18)
+    plt.savefig('confusion_matrix_test.png')
