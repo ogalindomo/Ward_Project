@@ -37,5 +37,5 @@ def evaluate(pred, act, event):
     plt.xlabel('Predicted', fontsize=18)
     plt.ylabel('Actual', fontsize=18)
     plt.title('{} Data Confusion Matrix'.format(event), fontsize=18)
-    plt.savefig('confusion_matrix_test.png')
+    plt.savefig(f'confusion_matrix_{event.replace(" ", "_")}.png')
     print("\n\n")
