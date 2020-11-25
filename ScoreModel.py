@@ -10,21 +10,40 @@ import numpy as np
     
 #Compute the frequency for every word that occurs 
 def create_word_frequencies(sentences):
-    #Empty dictionary
+    #Empty dictionary for tf frequency
     word_counts = {}
+
+    # emtpy dict for document frequency
+    df = {}
 
     #Count word Occurences
     for sentence in sentences:
         words = nltk.word_tokenize(sentence)
+
+        # compute tf
         for word in words:
             if word not in word_counts:
                 word_counts[word] = 1
             else:
                 word_counts[word] += 1
+            
+        # compute df
+        for word in list(set(words)):
+            if word not in df:
+                df[word] = 1
+            else:
+                df[word] += 1
 
-    # Compute maximum value and normalize the values
+    # compute idf 
+    idf = {word: np.log(len(sentences) / value) for word, value in df.items()}
+
+    # print(idf)
+
+    # Compute maximum value and normalize the values while computing td idf
     max_count = np.max(list(word_counts.values()))
-    word_frequencies = {word: max_count/value for word, value in word_counts.items()}
+    word_frequencies = {word: (value/max_count) * idf[word] for word, value in word_counts.items()}
+
+    # print(word_frequencies)
     return word_frequencies
 
 #Give each sentence a score by computing the sum of its word frequencies
