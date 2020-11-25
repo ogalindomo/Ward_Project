@@ -3,12 +3,11 @@ from glob import glob
 import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.metrics import precision_score, recall_score, f1_score, accuracy_score, confusion_matrix 
+import matplotlib.pyplot as plt
 
-from nltk.tokenize import PunktSentenceTokenizer
-
-gloveDirectory = "../../glove.6B.50d.txt"
-#nltk.download('punkt')
-#sentence_tokenizer = nltk.data.load("/Library/Frameworks/Python.framework/Versions/3.8/lib/nltk_data/tokenizers/punkt/english.pickle")
+# nltk.download('punkt')
+sentence_tokenizer = nltk.data.load('nltk:tokenizers/punkt/english.pickle')
 stopwords = nltk.corpus.stopwords.words("english")
 
 def get_email_files():
@@ -49,7 +48,7 @@ def create_sentences(emails):
 
         # TODO: 
         # clean up the sentences with some regex
-        sentences = nltk.tokenize(email)
+        sentences = sentence_tokenizer.tokenize(email)
         # sentences = list(map(lambda x: x.replace("\n", " "), sentences))
         
         # print(sentences)
@@ -59,24 +58,31 @@ def create_sentences(emails):
     return all_sentences
 
 def create_word_frequencies(sentences):
-    #Empty dictionary
+    
+    # empty dictionary
     word_counts = {}
 
-    #Count word Occurences
     for sentence in sentences:
         words = nltk.word_tokenize(sentence)
+        # print(words)
+
         for word in words:
             if word not in word_counts:
                 word_counts[word] = 1
             else:
                 word_counts[word] += 1
 
-    # Compute maximum value and normalize the values
+    # turn word counts into normalized frequencies
     max_count = np.max(list(word_counts.values()))
-    word_frequencies = {word: value / max_count for word, value in word_counts.items()}
+    word_frequencies = {}
+
+    for word in word_counts:
+        word_frequencies[word] = word_counts[word] / max_count
+
     return word_frequencies
 
 def score_sentence(sentence, word_frequencies):
+
     score = 0
     for word in nltk.word_tokenize(sentence):
         if word in word_frequencies:
@@ -86,7 +92,7 @@ def score_sentence(sentence, word_frequencies):
     return score
 
 def summarize_email(email, word_frequencies):
-    sentences = nltk.tokenize(email)
+    sentences = sentence_tokenizer.tokenize(email)
     # sentences = list(map(lambda x: x.replace("\n", " "), sentences))
 
     scores = list(map(lambda x: score_sentence(x, word_frequencies), sentences))
@@ -102,6 +108,19 @@ def summarize_email(email, word_frequencies):
 
 def tokenize_emails():
     folders = glob("./Emails/*")
+
+    # oscar
+    # griffith-j
+    # stepenovitch-j
+    
+    # aaron
+    # lay-k
+    # cash-m
+
+    # isaac
+    # king-j
+    # maggi-m
+
     folders = ["griffith-j", "stepenovitch-j", "lay-k", "cash-m", "king-j", "maggi-m"]
 
     for folder in folders:
@@ -116,7 +135,9 @@ def tokenize_emails():
                     data = f.read()
 
                     writer = csv.writer(g)
-                    sentences = nltk.tokenize(data)
+
+                    # print(data)
+                    sentences = sentence_tokenizer.tokenize(data)
 
                     for s in sentences:
                         writer.writerow([s.replace("\n", "")])
@@ -127,19 +148,19 @@ def get_training_data():
     return emails
 
 def accuracy(y_true,y_pred):
-    return np.sum(y_true==y_pred)/y_true.shape[0]
+    return accuracy_score(y_true, y_pred)
 
 def mse(p,y):
     return np.mean((p-y)**2)
 
 def get_glove():
-    with open(gloveDirectory, encoding = "utf-8") as gloveFile:
-        contents = gloveFile.readlines()
-        embeddings = dict()
-        for line in contents:
-            entries = line.split()
-            embeddings[entries[0]] = [float(entries[1+i]) for i in range(len(entries[1:]))]
-    return embeddings
+    f = open('glove.6B.50d.txt')
+    f = f.readlines()
+    d = dict()
+    for line in f:
+        entries = line.split()
+        d[entries[0]] = [float(entries[1+i]) for i in range(len(entries[1:]))]
+    return d
 
 def embeddings_scores_model(word_scores):
     glove = get_glove()
@@ -200,6 +221,43 @@ def print_fraction(vector):
 
 def train_scores_model():
 
+    emails = get_training_data()
+
+    scores = {}
+
+    # preprocessing
+    for email in emails:
+        with open(email, "r", encoding="utf-8") as f:
+            text = f.read()
+
+            lines = text.splitlines()
+
+            for line in lines:
+                data = line.split(";")[:2]
+                if len(data) == 2 and len(data[1].strip()) == 1:
+                    scores[data[0].strip('"').replace("\n", "")] = int(data[1].strip())
+
+    # put the sentences and the scores in separate arrays
+    sentences = list(scores.keys())
+    values = list(scores.values())
+
+    # split into train and test data
+    X_train = sentences[:int(len(sentences)*.9)]
+    X_test = sentences[int(len(sentences)*.9):]
+
+    y_train = values[:int(len(sentences)*.9)]
+    y_test = values[int(len(sentences)*.9):]
+
+    assert len(X_test) == len(y_test)
+    assert len(X_train) == len(y_train)
+
+    # X_train and X_test are currently arrays of strings
+    # we need to turn these into real values by using the frequency scores
+    word_frequencies = create_word_frequencies(X_train)
+    
+    # embeddings_model = embeddings_scores_model(word_frequencies)
+    
+    # print(word_frequencies)
 
     X_train_real = np.array(list(map(lambda x: score_sentence(x, word_frequencies), X_train))).reshape(-1, 1)
     X_test_real = np.array(list(map(lambda x: score_sentence(x, word_frequencies), X_test))).reshape(-1, 1)
@@ -220,6 +278,9 @@ def train_scores_model():
     
     pred = l_r.predict(r)
     
+
+    print(f"accuracy: {accuracy(pred, y_test)}")
+    return model,None
 
 if __name__ == "__main__":
     # scores_model,embeddings_model = train_scores_model()
@@ -276,7 +337,7 @@ if __name__ == "__main__":
     model = LinearRegression()
     model.fit(X_train_real, y_train)
     pred = model.predict(X_train_real)
-    ##########
+    ##########fraction
     sizes = get_sizes(X_train)
     e = get_sentence_embedding(X_train)
     new_train = combine3(pred, sizes,e)
@@ -285,8 +346,26 @@ if __name__ == "__main__":
     l_r.fit(new_train, y_train)
     pred = l_r.predict(new_train)
     print_fraction(y_train)
+    print("=== Metrics on Training Data ===")
     print(f"accuracy: {accuracy(pred, y_train)}")
+    print(f"precision: {precision_score(pred, y_train)}")
+    print(f"recall: {recall_score(pred, y_train)}")
+    print(f"f1: {f1_score(pred, y_train)}")
+    print("confusion matrix:")
+    conf_matrix = confusion_matrix(pred, y_train)
+    print(f"{conf_matrix}")
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.matshow(conf_matrix, cmap=plt.cm.Oranges, alpha=0.3)
+    for i in range(conf_matrix.shape[0]):
+        for j in range(conf_matrix.shape[1]):
+            ax.text(x=j, y=i,s=conf_matrix[i, j], va='center', ha='center', size='xx-large')
     
+    plt.xlabel('Predictions', fontsize=18)
+    plt.ylabel('Actuals', fontsize=18)
+    plt.title('Confusion Matrix', fontsize=18)
+    plt.savefig('confusion_matrix_train.png')
+
+
     e = get_sentence_embedding(X_test)
     
     r = combine3(model.predict(X_test_real), get_sizes(X_test),e)
@@ -294,5 +373,21 @@ if __name__ == "__main__":
     pred = l_r.predict(r)
     
     print_fraction(y_test)
-    print(f"accuracy: {accuracy(pred, y_test)}")    
+    print("\n\n=== Metrics on Test Data ===")
+    print(f"accuracy: {accuracy(pred, y_test)}")
+    print(f"precision: {precision_score(pred, y_test)}")
+    print(f"recall: {recall_score(pred, y_test)}")
+    print(f"f1: {f1_score(pred, y_test)}")
+    print("confusion matrix:")
+    conf_matrix = confusion_matrix(pred, y_test)
+    print(f"{conf_matrix}")
+    fig, ax = plt.subplots(figsize=(5, 5))
+    ax.matshow(conf_matrix, cmap=plt.cm.Oranges, alpha=0.3)
+    for i in range(conf_matrix.shape[0]):
+        for j in range(conf_matrix.shape[1]):
+            ax.text(x=j, y=i,s=conf_matrix[i, j], va='center', ha='center', size='xx-large')
     
+    plt.xlabel('Predictions', fontsize=18)
+    plt.ylabel('Actuals', fontsize=18)
+    plt.title('Confusion Matrix', fontsize=18)
+    plt.savefig('confusion_matrix_test.png')
